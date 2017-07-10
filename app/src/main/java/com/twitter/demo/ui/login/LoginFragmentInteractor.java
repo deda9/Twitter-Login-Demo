@@ -6,5 +6,5 @@ package com.twitter.demo.ui.login;
  * +201225361630
  */
 
-public class LoginFragmentInteractor {
+public interface LoginFragmentInteractor {
 }

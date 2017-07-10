@@ -1,17 +1,5 @@
 [
     {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
-    },
-    {
         "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }

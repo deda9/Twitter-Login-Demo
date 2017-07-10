@@ -9,6 +9,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.Toast;
@@ -126,5 +128,13 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
 
     public void onConfigurationChanged(Configuration paramConfiguration) {
         super.onConfigurationChanged(paramConfiguration);
+    }
+
+    protected void replaceFragment(Fragment fragment) {
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.fragment_container, fragment, fragment.getClass().getName())
+                .setTransitionStyle(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                .commit();
     }
 }

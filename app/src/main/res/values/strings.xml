@@ -4,5 +4,8 @@
     <string name="drawer_close">close</string>
     <string name="no_network_try_again">There is no network connection, try again later</string>
     <string name="error_no_internet_connection">s</string>
+    <string name="on_success_twitter_login">login success</string>
+    <string name="on_fail_twitter_login">fail</string>
+    <string name="login_with_twitter">Login With Twitter</string>
 
 </resources>

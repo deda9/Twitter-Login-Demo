@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
@@ -10,9 +9,9 @@
 
     <ImageView
         android:id="@+id/iv_splash_logo"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:src="@color/black" />
+        android:background="@mipmap/ic_launcher" />
 </LinearLayout>

@@ -7,7 +7,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        applicationId "com.a24.protien"
+        applicationId "com.eventtus.twitter.demo"
         minSdkVersion 14
         targetSdkVersion 24
         versionCode 1
@@ -20,6 +20,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
+
+//All the Twitter Kit artifacts are distributed thru Bintray jcenter. Make sure jcenter is included in your repositories scope.
+repositories {
+    jcenter()
 }
 
 dependencies {
@@ -51,5 +56,11 @@ dependencies {
 
     //OKHttp Logging
     compile 'com.squareup.okhttp3:logging-interceptor:3.3.0'
+
+    //In some cases it may be desirable to include only the necessary dependencies to avoid the Android dex limit.
+    compile 'com.twitter.sdk.android:twitter-core:3.0.0'
+    compile 'com.twitter.sdk.android:tweet-ui:3.0.0'
+    compile 'com.twitter.sdk.android:tweet-composer:3.0.0'
+    compile 'com.twitter.sdk.android:twitter-mopub:3.0.0'
 
 }

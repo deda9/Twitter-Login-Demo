@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.a24.protien.test">
+    package="com.eventtus.twitter.demo.test">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="24" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.support.test.runner.AndroidJUnitRunner"
-                     android:targetPackage="com.a24.protien"
+                     android:targetPackage="com.eventtus.twitter.demo"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.a24.protien"/>
+                     android:label="Tests for com.eventtus.twitter.demo"/>
 </manifest>

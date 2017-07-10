@@ -3,84 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/percent/24.2.0/jars/classes.jar"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b10d60271c8298c59316050648bd9bb7adc5019a">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-percent-24.2.0_04ff5898c9a95aedf76faf10e8ff97424301ec64.jar" />
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_146e1be40445f58750d2ce400c33d5920f104860.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.3.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_327d9ad55e1a08e8c11b4bbf3657bd46e0c9467c.jar" />
+        sha1="205155180b7747a96c076484ba0014e4bcacb33d">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/io.realm-realm-android-library-2.3.1_4d1f19f4545226d642161ee50dc36b479edaba40.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/3.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_1722e1b55371c6e604d4f15b379f7e3d05b5f344.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f9c42dd4e0d14988f15917c2021f2f631c09e267">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/instant-run_f624a85b9fd278a5224f85f840bddea52ba98dcd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_96bbde8ad0c720909c8ab73ba2145aeab9a3cb8b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_4408dad326e5a88450bf1d16fd7c7720095ec2cd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.2_4767a626c28313df4b7d4992e8ce63377807ee44.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_90aeb175529dc5a1ab2b7eb6488455dc34048c26.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_5f5bc269f3aaa6f05f289203b6ecca9b599d30ea.jar" />
+        sha1="684b132d394d746b6a5eeddb384aadd775ea5bdc">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.twitter.sdk.android-twitter-core-3.0.0_5b33deed884c27b31af466f42546e1f2d0d29773.jar" />
     </item>
     <item
         is-multidex="false"
@@ -89,52 +35,124 @@
         optimize="true"
         revision="24.0.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/library-2.4.0_88e7ce2e0f5025516d0b46816ce17986939639af.jar" />
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/library-2.4.0_88e7ce2e0f5025516d0b46816ce17986939639af.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_1e3e4254d9d592ee31f257ef97c592c32d2414a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.artemzin.rxjava/proguard-rules/1.2.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="64ad847b1bf7f50109dc86c7b177d9fe71146090">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.artemzin.rxjava-proguard-rules-1.2.6.0_7e1ae3a1a7befb0752f9a6ed5bff5bb31d419328.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/gson-2.7_33e788c946e4c5748e644de96dcb1ff3ee5db8ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4373c433748652e9e7c20770f73ac14d852505dd">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.twitter.sdk.android-tweet-ui-3.0.0_08df40d3ebb82db7ec89135587a9a73aae5967a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.mopub/mopub-sdk-rewardedvideo/4.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="92371d7303cc2411771e6d76bcd79119830e1fbf">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.mopub-mopub-sdk-rewardedvideo-4.11.0_eb6f30a44a4c5c8acff6aebe30c46ff334a48943.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_6060fbd6b5a3ec0b40af650adf5d9d386561a5df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_6a3fa0cf658fb9cfa115a250cb08a788ce157879.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_23d2d018899ab17c304c4e7a9d7a706f8c0d204d.jar" />
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_77e4e3f085a240857c4814e8dbe5ba3099d03f8b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r1.5.6/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_204bb0d94d2917e9d32d74d79635ad6a13c1f182.jar" />
+        sha1="3c046dc3c0911d142627192884ee771d9a6f5f34">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.google.android.exoplayer-exoplayer-r1.5.6_b17720a3f94ef9179a7d7b621c2448d7fd9a2f1d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.mopub/mopub-sdk/4.11.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_e153c7d9f04a0dc01544bbccdc5a0681704b9511.jar" />
+        sha1="58d775ddb89146f1aaf31f5090ba9831069076e8">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.mopub-mopub-sdk-4.11.0_c02c8578d941688b0b4a26ed15e17c449725116a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_37351f31e9efd99d172e4af9901f162890c50479.jar" />
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_45271203ebfd3387a44ab863e1e1a9a0b764f603.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.mopub/mopub-sdk-interstitial/4.11.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.0.1_a272609871338d8b6770fdd6c922e292a2d43ae4.jar" />
+        sha1="b7433f0a43af98cb62a9b7ffc049d4e3a268c1f5">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.mopub-mopub-sdk-interstitial-4.11.0_dcd530cb69df00139fe4a5b1820b7ecf03b10b02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_6ccb3e339ac54f872058db8e6d4b15333d2c25d4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -143,124 +161,187 @@
         optimize="true"
         revision="24.0.2"
         sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0_6fea67ea9774f2222e30aecbcf95bbc6d183acab.jar" />
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0_6fea67ea9774f2222e30aecbcf95bbc6d183acab.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6e980e6641609ebb1ee9aa0514111c90d9cfeb5e">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_4e7960230fbcefba901d1bee7be0941984f7df5e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_6477707d4fbc2a56a47147983917eb4d1a6d4675.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/gson-2.6.2_de67fd7f652343b9d906aaa0998d815b875ef92d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_d9eebdc4547b99341649034a40cc1edf77c33f23.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/okio-1.6.0_0132b119a5b268e01199c5f2a9dfefa373d98200.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/retrofit-2.0.2_2a309cdd9ff4abbd00867613ada5c83126a7aa62.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.0_9d718b3d5d7b517645ec4c313aa9335c6249c31c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_5b9bb82b0274510d8d7c6bb84ff008ae897f69d8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.0.1/jars/classes.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.0.1_184d02336ccfaf5a1110f2465ac372c9e908f5c8.jar" />
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.0.1_11b1f9c96f00756a4d41955e614fd01551dc4080.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.3.1/1c1c75a7e1dfee58c51822987dc658f93e036c81/realm-annotations-2.3.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_4cdfab3e8744298c41be39f45553387e63c783e6.jar" />
+        sha1="1c1c75a7e1dfee58c51822987dc658f93e036c81">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/realm-annotations-2.3.1_84b676be6d2dcbd75e988e223f05810233fd7855.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/percent/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_9be415e65f99767b169cefbda95782f20f18ed22.jar" />
+        sha1="b10d60271c8298c59316050648bd9bb7adc5019a">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-percent-24.2.0_c1ffc51fb520f39ebad7b90dd5e0e36a3ac129ad.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_10661938f548927b59794e3b780188372e1a09a7.jar" />
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_05579c53d8b5b0b4be27a8facab1127f96d3fc56.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.wang.avi/library/1.0.5/jars/classes.jar"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/okio-1.9.0_26daca5917234c1a27565b1e8b844206aea7b51a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_9296083d6cef0bac8db5e2740650fe4365790742.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.mopub/mopub-sdk-base/4.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3cb69c8f121a1a08fb01b893e16507576b93eae8">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.mopub-mopub-sdk-base-4.11.0_084ead6b9bdfd00d291815dbbaf35751a24eecb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_0bec5c24e41aad0f76e83cedc9cf8ca67a639356.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0cbf65c7a403e2e8f7f286dc5a4ad6ac2b54579a">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_848d3e1368ff4f5e35325bbc16acba5c7cad1e3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_c4d2ee8fef1f74ffda82692df3432561f622ceb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7dc328d848cd0f03d8ddd60adff3d405638cdd95">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/instant-run_3c1c21fe6920a0dce7662cb076eabc57dfc5383a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.wang.avi/library/1.0.5/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="5035aaf60d244038bb143ffad4fbb7cba92ecdc7">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.wang.avi-library-1.0.5_d648b77b13adb45f87437a017e6f429185afdf7d.jar" />
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.wang.avi-library-1.0.5_8a5911b16ba0fb57701869fcb0d031142f6e793c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.0.1_a272609871338d8b6770fdd6c922e292a2d43ae4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_d24a48a8651ba122e2727de5e93cab0f2ce67e6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_087911a457467c708a86400e8f0899081676a7e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_980109bf7dcd4309acd8dd6dbb0f6295e287479a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_d55a556b19d85ca48b20ea228640f131dd80034a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.mopub.volley/mopub-volley/1.1.0/4357bce66ae3bb9be50679e43df122fd0a8f3394/mopub-volley-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4357bce66ae3bb9be50679e43df122fd0a8f3394">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/mopub-volley-1.1.0_11afdab503cbc7dd8a4f9a95358d3bdf7721f66f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.mopub/mopub-sdk-native-video/4.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="af595815ceb3c9dea11f8a74d592a05ff4ead05f">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.mopub-mopub-sdk-native-video-4.11.0_0369b8042480148170fa1300db6b86c427530f76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.0/ba14d8b7789efde5ee150eacb297b7237abca39/logging-interceptor-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ba14d8b7789efde5ee150eacb297b7237abca39">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.3.0_563b01fc0f721cdb037eb5c4b6b243b9772996bb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -269,16 +350,124 @@
         optimize="true"
         revision="24.0.2"
         sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_53634e06f6f9d0153c470b833b3b630f28c0f82f.jar" />
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_53634e06f6f9d0153c470b833b3b630f28c0f82f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_3400ddbdfcc91dea55d37e0cfbf1ae5e219cec45.jar" />
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.getkeepsafe.relinker-relinker-1.2.2_09367b1c2dc71ad551a89ecc2f75ce224690b26c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.2/ccde00f7ccc77af5a6d5752e2cb21f6d8998289f/okhttp-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/okhttp-3.4.2_f9c83bb014108599b71ade8ba240a338b994c0b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_6701723701d15c455a8fa75518c64d88f696652a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_f6e17e0a0a56aa11ab41c605fc0d1ad3cb1458a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/3.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2640be449e78c2947f08c4f8fdc596faf6b450da">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.twitter.sdk.android-tweet-composer-3.0.0_401fe885521700b0fe1c903c2ed2defa81f81f57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_95c1e14231c3b185a941f5f6308ce97c111b85aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-mopub/3.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8446bd80844ca8bb3f6c5ae614ee33a294c46f6f">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.twitter.sdk.android-twitter-mopub-3.0.0_85e6a057192648249ced6162ec8d1c145209f972.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.mopub/mopub-sdk-native-static/4.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5abc448dbde53b0cd4cbe3c19d1e40c680667563">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.mopub-mopub-sdk-native-static-4.11.0_0286187717b3709c98989a20d89a25a17eb7561c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.0_98c85dbf60cb0f1e1ff0abad40b98082e895e68a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.mopub/mopub-sdk-banner/4.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="431975800846a421d3b7ae1e5388b5bd87a5cfca">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.mopub-mopub-sdk-banner-4.11.0_223a75227bcb1f46f4bbbbceac7fe00944e6c17e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_9be415e65f99767b169cefbda95782f20f18ed22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.twitter/twitter-text/1.14.3/71218d7dd9435e8b43e5ccf117bec37cb78fa2eb/twitter-text-1.14.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="71218d7dd9435e8b43e5ccf117bec37cb78fa2eb">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/twitter-text-1.14.3_4d7fb7bbbaa07671b30e89f9db460d1868a4845f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_e2c89e57439cbc2c5fd74f90ae7e30cbfdf71f74.jar" />
     </item>
 
 </items>

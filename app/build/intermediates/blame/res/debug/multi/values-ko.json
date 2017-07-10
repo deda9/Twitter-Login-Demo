@@ -7,8 +7,71 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 14,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 14,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endLine": 9,
+                    "endColumn": 14,
+                    "endOffset": 315
+                },
+                "from": {
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endLine": 9,
+                        "endColumn": 14,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 320,
+                    "endLine": 13,
+                    "endColumn": 14,
+                    "endOffset": 446
+                },
+                "from": {
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 320,
+                        "endLine": 13,
+                        "endColumn": 14,
+                        "endOffset": 446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 451,
                     "endColumn": 94,
-                    "endOffset": 145
+                    "endOffset": 541
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -23,11 +86,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 150,
+                    "startOffset": 546,
                     "endColumn": 107,
-                    "endOffset": 253
+                    "endOffset": 649
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -42,11 +105,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 258,
+                    "startOffset": 654,
                     "endColumn": 122,
-                    "endOffset": 376
+                    "endOffset": 772
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -61,11 +124,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 381,
+                    "startOffset": 777,
                     "endColumn": 93,
-                    "endOffset": 470
+                    "endOffset": 866
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -80,11 +143,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 475,
+                    "startOffset": 871,
                     "endColumn": 101,
-                    "endOffset": 572
+                    "endOffset": 968
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -99,11 +162,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 577,
+                    "startOffset": 973,
                     "endColumn": 81,
-                    "endOffset": 654
+                    "endOffset": 1050
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -118,11 +181,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 659,
+                    "startOffset": 1055,
                     "endColumn": 97,
-                    "endOffset": 752
+                    "endOffset": 1148
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -137,11 +200,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 757,
+                    "startOffset": 1153,
                     "endColumn": 105,
-                    "endOffset": 858
+                    "endOffset": 1254
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -156,11 +219,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 863,
+                    "startOffset": 1259,
                     "endColumn": 78,
-                    "endOffset": 937
+                    "endOffset": 1333
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -175,11 +238,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 942,
+                    "startOffset": 1338,
                     "endColumn": 75,
-                    "endOffset": 1013
+                    "endOffset": 1409
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -194,11 +257,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1018,
+                    "startOffset": 1414,
                     "endColumn": 79,
-                    "endOffset": 1093
+                    "endOffset": 1489
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -213,11 +276,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1098,
+                    "startOffset": 1494,
                     "endColumn": 97,
-                    "endOffset": 1191
+                    "endOffset": 1587
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -232,11 +295,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1196,
+                    "startOffset": 1592,
                     "endColumn": 94,
-                    "endOffset": 1286
+                    "endOffset": 1682
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -251,11 +314,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1291,
+                    "startOffset": 1687,
                     "endColumn": 94,
-                    "endOffset": 1381
+                    "endOffset": 1777
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -270,11 +333,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1386,
+                    "startOffset": 1782,
                     "endColumn": 99,
-                    "endOffset": 1481
+                    "endOffset": 1877
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -289,11 +352,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 1486,
+                    "startOffset": 1882,
                     "endColumn": 95,
-                    "endOffset": 1577
+                    "endOffset": 1973
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -308,11 +371,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1582,
+                    "startOffset": 1978,
                     "endColumn": 98,
-                    "endOffset": 1676
+                    "endOffset": 2072
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -327,11 +390,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 1681,
+                    "startOffset": 2077,
                     "endColumn": 114,
-                    "endOffset": 1791
+                    "endOffset": 2187
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -346,11 +409,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 1796,
+                    "startOffset": 2192,
                     "endColumn": 93,
-                    "endOffset": 1885
+                    "endOffset": 2281
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -365,11 +428,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 1890,
+                    "startOffset": 2286,
                     "endColumn": 77,
-                    "endOffset": 1963
+                    "endOffset": 2359
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -384,11 +447,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 1968,
+                    "startOffset": 2364,
                     "endColumn": 100,
-                    "endOffset": 2064
+                    "endOffset": 2460
                 },
                 "from": {
                     "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
@@ -400,1216 +463,384 @@
                         "endOffset": 2064
                     }
                 }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
-        "map": [
+            },
             {
                 "to": {
-                    "startLine": 2,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 94,
-                    "endOffset": 145
+                    "startOffset": 2465,
+                    "endColumn": 66,
+                    "endOffset": 2527
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 94,
-                        "endOffset": 145
+                        "endColumn": 66,
+                        "endOffset": 117
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 150,
-                    "endColumn": 107,
-                    "endOffset": 253
+                    "startOffset": 2532,
+                    "endColumn": 50,
+                    "endOffset": 2578
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 150,
-                        "endColumn": 107,
-                        "endOffset": 253
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 258,
-                    "endColumn": 122,
-                    "endOffset": 376
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 258,
-                        "endColumn": 122,
-                        "endOffset": 376
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 381,
-                    "endColumn": 93,
-                    "endOffset": 470
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 381,
-                        "endColumn": 93,
-                        "endOffset": 470
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 475,
-                    "endColumn": 101,
-                    "endOffset": 572
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 475,
-                        "endColumn": 101,
-                        "endOffset": 572
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 577,
-                    "endColumn": 81,
-                    "endOffset": 654
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 577,
-                        "endColumn": 81,
-                        "endOffset": 654
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 659,
-                    "endColumn": 97,
-                    "endOffset": 752
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 659,
-                        "endColumn": 97,
-                        "endOffset": 752
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 757,
-                    "endColumn": 105,
-                    "endOffset": 858
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 757,
-                        "endColumn": 105,
-                        "endOffset": 858
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 863,
-                    "endColumn": 78,
-                    "endOffset": 937
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 863,
-                        "endColumn": 78,
-                        "endOffset": 937
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 942,
-                    "endColumn": 75,
-                    "endOffset": 1013
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 942,
-                        "endColumn": 75,
-                        "endOffset": 1013
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1018,
-                    "endColumn": 79,
-                    "endOffset": 1093
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1018,
-                        "endColumn": 79,
-                        "endOffset": 1093
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1098,
-                    "endColumn": 97,
-                    "endOffset": 1191
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1098,
-                        "endColumn": 97,
-                        "endOffset": 1191
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1196,
-                    "endColumn": 94,
-                    "endOffset": 1286
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1196,
-                        "endColumn": 94,
-                        "endOffset": 1286
+                        "startOffset": 451,
+                        "endColumn": 50,
+                        "endOffset": 497
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 1291,
-                    "endColumn": 94,
-                    "endOffset": 1381
+                    "startOffset": 2583,
+                    "endColumn": 54,
+                    "endOffset": 2633
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1291,
-                        "endColumn": 94,
-                        "endOffset": 1381
+                        "startOffset": 502,
+                        "endColumn": 54,
+                        "endOffset": 552
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 1386,
-                    "endColumn": 99,
-                    "endOffset": 1481
+                    "startOffset": 2638,
+                    "endColumn": 56,
+                    "endOffset": 2690
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1386,
-                        "endColumn": 99,
-                        "endOffset": 1481
+                        "startOffset": 557,
+                        "endColumn": 56,
+                        "endOffset": 609
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 1486,
-                    "endColumn": 95,
-                    "endOffset": 1577
+                    "startOffset": 2695,
+                    "endColumn": 58,
+                    "endOffset": 2749
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1486,
-                        "endColumn": 95,
-                        "endOffset": 1577
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1582,
-                    "endColumn": 98,
-                    "endOffset": 1676
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1582,
-                        "endColumn": 98,
-                        "endOffset": 1676
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1681,
-                    "endColumn": 114,
-                    "endOffset": 1791
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1681,
-                        "endColumn": 114,
-                        "endOffset": 1791
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1796,
-                    "endColumn": 93,
-                    "endOffset": 1885
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1796,
-                        "endColumn": 93,
-                        "endOffset": 1885
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1890,
-                    "endColumn": 77,
-                    "endOffset": 1963
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1890,
-                        "endColumn": 77,
-                        "endOffset": 1963
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 1968,
-                    "endColumn": 100,
-                    "endOffset": 2064
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1968,
-                        "endColumn": 100,
-                        "endOffset": 2064
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 94,
-                    "endOffset": 145
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 94,
-                        "endOffset": 145
+                        "endColumn": 58,
+                        "endOffset": 109
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 150,
-                    "endColumn": 107,
-                    "endOffset": 253
+                    "startOffset": 2754,
+                    "endColumn": 51,
+                    "endOffset": 2801
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 150,
-                        "endColumn": 107,
-                        "endOffset": 253
+                        "startOffset": 122,
+                        "endColumn": 51,
+                        "endOffset": 169
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 258,
-                    "endColumn": 122,
-                    "endOffset": 376
+                    "startOffset": 2806,
+                    "endColumn": 43,
+                    "endOffset": 2845
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 258,
-                        "endColumn": 122,
-                        "endOffset": 376
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 381,
-                    "endColumn": 93,
-                    "endOffset": 470
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 381,
-                        "endColumn": 93,
-                        "endOffset": 470
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 475,
-                    "endColumn": 101,
-                    "endOffset": 572
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 475,
-                        "endColumn": 101,
-                        "endOffset": 572
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 577,
-                    "endColumn": 81,
-                    "endOffset": 654
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 577,
-                        "endColumn": 81,
-                        "endOffset": 654
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 659,
-                    "endColumn": 97,
-                    "endOffset": 752
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 659,
-                        "endColumn": 97,
-                        "endOffset": 752
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 757,
-                    "endColumn": 105,
-                    "endOffset": 858
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 757,
-                        "endColumn": 105,
-                        "endOffset": 858
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 863,
-                    "endColumn": 78,
-                    "endOffset": 937
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 863,
-                        "endColumn": 78,
-                        "endOffset": 937
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 942,
-                    "endColumn": 75,
-                    "endOffset": 1013
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 942,
-                        "endColumn": 75,
-                        "endOffset": 1013
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1018,
-                    "endColumn": 79,
-                    "endOffset": 1093
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1018,
-                        "endColumn": 79,
-                        "endOffset": 1093
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1098,
-                    "endColumn": 97,
-                    "endOffset": 1191
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1098,
-                        "endColumn": 97,
-                        "endOffset": 1191
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1196,
-                    "endColumn": 94,
-                    "endOffset": 1286
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1196,
-                        "endColumn": 94,
-                        "endOffset": 1286
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1291,
-                    "endColumn": 94,
-                    "endOffset": 1381
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1291,
-                        "endColumn": 94,
-                        "endOffset": 1381
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1386,
-                    "endColumn": 99,
-                    "endOffset": 1481
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1386,
-                        "endColumn": 99,
-                        "endOffset": 1481
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1486,
-                    "endColumn": 95,
-                    "endOffset": 1577
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1486,
-                        "endColumn": 95,
-                        "endOffset": 1577
+                        "startOffset": 614,
+                        "endColumn": 43,
+                        "endOffset": 653
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 1582,
-                    "endColumn": 98,
-                    "endOffset": 1676
+                    "startOffset": 2850,
+                    "endColumn": 39,
+                    "endOffset": 2885
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1582,
-                        "endColumn": 98,
-                        "endOffset": 1676
+                        "startOffset": 658,
+                        "endColumn": 39,
+                        "endOffset": 693
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 1681,
-                    "endColumn": 114,
-                    "endOffset": 1791
+                    "startOffset": 2890,
+                    "endColumn": 45,
+                    "endOffset": 2931
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 1681,
-                        "endColumn": 114,
-                        "endOffset": 1791
+                        "startOffset": 174,
+                        "endColumn": 45,
+                        "endOffset": 215
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 1796,
-                    "endColumn": 93,
-                    "endOffset": 1885
+                    "startOffset": 2936,
+                    "endColumn": 72,
+                    "endOffset": 3004
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1796,
-                        "endColumn": 93,
-                        "endOffset": 1885
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1890,
-                    "endColumn": 77,
-                    "endOffset": 1963
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1890,
-                        "endColumn": 77,
-                        "endOffset": 1963
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 1968,
-                    "endColumn": 100,
-                    "endOffset": 2064
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1968,
-                        "endColumn": 100,
-                        "endOffset": 2064
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 94,
-                    "endOffset": 145
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-mopub/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 94,
-                        "endOffset": 145
+                        "endColumn": 72,
+                        "endOffset": 123
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 150,
-                    "endColumn": 107,
-                    "endOffset": 253
+                    "startOffset": 3009,
+                    "endColumn": 66,
+                    "endOffset": 3071
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 150,
-                        "endColumn": 107,
-                        "endOffset": 253
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 258,
-                    "endColumn": 122,
-                    "endOffset": 376
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 258,
-                        "endColumn": 122,
-                        "endOffset": 376
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 381,
-                    "endColumn": 93,
-                    "endOffset": 470
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 381,
-                        "endColumn": 93,
-                        "endOffset": 470
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 475,
-                    "endColumn": 101,
-                    "endOffset": 572
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 475,
-                        "endColumn": 101,
-                        "endOffset": 572
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 577,
-                    "endColumn": 81,
-                    "endOffset": 654
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 577,
-                        "endColumn": 81,
-                        "endOffset": 654
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 659,
-                    "endColumn": 97,
-                    "endOffset": 752
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 659,
-                        "endColumn": 97,
-                        "endOffset": 752
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 757,
-                    "endColumn": 105,
-                    "endOffset": 858
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 757,
-                        "endColumn": 105,
-                        "endOffset": 858
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 863,
-                    "endColumn": 78,
-                    "endOffset": 937
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 863,
-                        "endColumn": 78,
-                        "endOffset": 937
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 942,
-                    "endColumn": 75,
-                    "endOffset": 1013
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 942,
-                        "endColumn": 75,
-                        "endOffset": 1013
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1018,
-                    "endColumn": 79,
-                    "endOffset": 1093
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1018,
-                        "endColumn": 79,
-                        "endOffset": 1093
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1098,
-                    "endColumn": 97,
-                    "endOffset": 1191
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1098,
-                        "endColumn": 97,
-                        "endOffset": 1191
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1196,
-                    "endColumn": 94,
-                    "endOffset": 1286
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1196,
-                        "endColumn": 94,
-                        "endOffset": 1286
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1291,
-                    "endColumn": 94,
-                    "endOffset": 1381
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1291,
-                        "endColumn": 94,
-                        "endOffset": 1381
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1386,
-                    "endColumn": 99,
-                    "endOffset": 1481
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1386,
-                        "endColumn": 99,
-                        "endOffset": 1481
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1486,
-                    "endColumn": 95,
-                    "endOffset": 1577
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1486,
-                        "endColumn": 95,
-                        "endOffset": 1577
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1582,
-                    "endColumn": 98,
-                    "endOffset": 1676
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1582,
-                        "endColumn": 98,
-                        "endOffset": 1676
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1681,
-                    "endColumn": 114,
-                    "endOffset": 1791
-                },
-                "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1681,
-                        "endColumn": 114,
-                        "endOffset": 1791
+                        "startOffset": 698,
+                        "endColumn": 66,
+                        "endOffset": 760
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 1796,
-                    "endColumn": 93,
-                    "endOffset": 1885
+                    "startOffset": 3076,
+                    "endColumn": 65,
+                    "endOffset": 3137
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1796,
-                        "endColumn": 93,
-                        "endOffset": 1885
+                        "startOffset": 765,
+                        "endColumn": 65,
+                        "endOffset": 826
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 1890,
-                    "endColumn": 77,
-                    "endOffset": 1963
+                    "startOffset": 3142,
+                    "endColumn": 42,
+                    "endOffset": 3180
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 1890,
-                        "endColumn": 77,
-                        "endOffset": 1963
+                        "startOffset": 831,
+                        "endColumn": 42,
+                        "endOffset": 869
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 1968,
-                    "endColumn": 100,
-                    "endOffset": 2064
+                    "startOffset": 3185,
+                    "endColumn": 64,
+                    "endOffset": 3245
                 },
                 "from": {
-                    "file": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/values-ko/values-ko.xml",
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1968,
-                        "endColumn": 100,
-                        "endOffset": 2064
+                        "startOffset": 874,
+                        "endColumn": 64,
+                        "endOffset": 934
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3250,
+                    "endColumn": 106,
+                    "endOffset": 3352
+                },
+                "from": {
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 939,
+                        "endColumn": 106,
+                        "endOffset": 1041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3357,
+                    "endColumn": 72,
+                    "endOffset": 3425
+                },
+                "from": {
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1046,
+                        "endColumn": 72,
+                        "endOffset": 1114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3430,
+                    "endColumn": 51,
+                    "endOffset": 3477
+                },
+                "from": {
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1119,
+                        "endColumn": 51,
+                        "endOffset": 1166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3482,
+                    "endColumn": 51,
+                    "endOffset": 3529
+                },
+                "from": {
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-mopub/3.0.0/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 128,
+                        "endColumn": 51,
+                        "endOffset": 175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3534,
+                    "endColumn": 75,
+                    "endOffset": 3605
+                },
+                "from": {
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1171,
+                        "endColumn": 75,
+                        "endOffset": 1242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3610,
+                    "endColumn": 50,
+                    "endOffset": 3656
+                },
+                "from": {
+                    "file": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1247,
+                        "endColumn": 50,
+                        "endOffset": 1293
                     }
                 }
             }

@@ -2,17 +2,5 @@
     {
         "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-v23/abc_control_background_material.xml"
-    },
-    {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-v23/abc_control_background_material.xml"
-    },
-    {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-v23/abc_control_background_material.xml"
-    },
-    {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable-v23/abc_control_background_material.xml"
     }
 ]

@@ -4,40 +4,33 @@
     density="mdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="10768080543566"
-    token="6065922940980362269"
-    verifier="COMPATIBLE" >
+    timestamp="10372670142051"
+    token="-6157592133670778412"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="754" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="13" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="10699018955546"
-        verifier="METHOD_ADDED" >
+        timestamp="10372670142051"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/outputs/apk/app-debug.apk"
+            location="/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="10768080543566"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

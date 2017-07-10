@@ -1,17 +1,5 @@
 [
     {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
