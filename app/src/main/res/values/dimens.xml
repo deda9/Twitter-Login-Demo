@@ -6,5 +6,8 @@
 
     <dimen name="width_nav_side_bar">250dp</dimen>
     <dimen name="height_nav_list_view_row">48dp</dimen>
+    <dimen name="twitter_logo_width">150dp</dimen>
+    <dimen name="twitter_logo_height">150dp</dimen>
+
 
 </resources>

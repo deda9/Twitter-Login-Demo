@@ -32,12 +32,12 @@
         "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/layout/tw__tweet_compact.xml",
-        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/layout/tw__tweet_compact.xml"
-    },
-    {
         "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
         "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/layout/tw__tweet_compact.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/3.0.0/res/layout/tw__tweet_compact.xml"
     },
     {
         "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",

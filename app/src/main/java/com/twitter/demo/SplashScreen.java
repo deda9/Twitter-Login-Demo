@@ -30,11 +30,9 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 if (!SharedPrefUtilis.getUserID().isEmpty() && !SharedPrefUtilis.getUserID().equals("none")) {
                     startActivity(new Intent(SplashScreen.this, LoginUserActivity.class));
-                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                     finish();
                 } else {
                     startActivity(new Intent(SplashScreen.this, LoginUserActivity.class));
-                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                     finish();
                 }
             }
