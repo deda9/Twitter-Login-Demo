@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Twitter-Login-Demo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Eventtus/Demo Twitter/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/Deda/Documents/3 Android/1 My Work/1Skeleton /app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

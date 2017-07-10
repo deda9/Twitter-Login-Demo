@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/percent/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b10d60271c8298c59316050648bd9bb7adc5019a">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-percent-24.2.0_04ff5898c9a95aedf76faf10e8ff97424301ec64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_327d9ad55e1a08e8c11b4bbf3657bd46e0c9467c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_1722e1b55371c6e604d4f15b379f7e3d05b5f344.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9c42dd4e0d14988f15917c2021f2f631c09e267">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/instant-run_f624a85b9fd278a5224f85f840bddea52ba98dcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_96bbde8ad0c720909c8ab73ba2145aeab9a3cb8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_4408dad326e5a88450bf1d16fd7c7720095ec2cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.2_4767a626c28313df4b7d4992e8ce63377807ee44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_90aeb175529dc5a1ab2b7eb6488455dc34048c26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_5f5bc269f3aaa6f05f289203b6ecca9b599d30ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/library-2.4.0_88e7ce2e0f5025516d0b46816ce17986939639af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_23d2d018899ab17c304c4e7a9d7a706f8c0d204d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_204bb0d94d2917e9d32d74d79635ad6a13c1f182.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_e153c7d9f04a0dc01544bbccdc5a0681704b9511.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_37351f31e9efd99d172e4af9901f162890c50479.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.0.1_a272609871338d8b6770fdd6c922e292a2d43ae4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0_6fea67ea9774f2222e30aecbcf95bbc6d183acab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e980e6641609ebb1ee9aa0514111c90d9cfeb5e">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_4e7960230fbcefba901d1bee7be0941984f7df5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_6477707d4fbc2a56a47147983917eb4d1a6d4675.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/gson-2.6.2_de67fd7f652343b9d906aaa0998d815b875ef92d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_d9eebdc4547b99341649034a40cc1edf77c33f23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/okio-1.6.0_0132b119a5b268e01199c5f2a9dfefa373d98200.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/retrofit-2.0.2_2a309cdd9ff4abbd00867613ada5c83126a7aa62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.0_9d718b3d5d7b517645ec4c313aa9335c6249c31c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_5b9bb82b0274510d8d7c6bb84ff008ae897f69d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.0.1_184d02336ccfaf5a1110f2465ac372c9e908f5c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_4cdfab3e8744298c41be39f45553387e63c783e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_9be415e65f99767b169cefbda95782f20f18ed22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_10661938f548927b59794e3b780188372e1a09a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.wang.avi/library/1.0.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5035aaf60d244038bb143ffad4fbb7cba92ecdc7">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.wang.avi-library-1.0.5_d648b77b13adb45f87437a017e6f429185afdf7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/2 Pro/SDK/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_53634e06f6f9d0153c470b833b3b630f28c0f82f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/Deda/Documents/3 Android/1 My Work/Protien/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_3400ddbdfcc91dea55d37e0cfbf1ae5e219cec45.jar" />
+    </item>
+
+</items>

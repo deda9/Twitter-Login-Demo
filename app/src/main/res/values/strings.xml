@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Twitter Demo</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="no_network_try_again">There is no network connection, try again later</string>
+    <string name="error_no_internet_connection">s</string>
+
+</resources>
