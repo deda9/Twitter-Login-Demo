@@ -5,8 +5,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
+import com.twitter.demo.api.CustomTwitterApiClient;
+import com.twitter.demo.models.FollowerListResponse;
 import com.twitter.sdk.android.core.Callback;
 import com.twitter.sdk.android.core.Result;
+import com.twitter.sdk.android.core.TwitterAuthToken;
 import com.twitter.sdk.android.core.TwitterException;
 import com.twitter.sdk.android.core.TwitterSession;
 import com.twitter.sdk.android.core.identity.TwitterAuthClient;
@@ -73,12 +76,57 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
         });
     }
 
-    private void getUserEmailSilence(TwitterSession twitterSession) {
+    private void getUserEmailSilence(final TwitterSession twitterSession) {
         if(twitterClient != null){
             twitterClient.requestEmail(twitterSession, new Callback<String>() {
                 @Override
                 public void success(Result<String> result) {
                     Log.d("hello", "userEmail" + result.data);
+
+                    TwitterAuthToken authToken = twitterSession.getAuthToken();
+                    String token = authToken.token;
+                    String secret = authToken.secret;
+                    Log.d("hello", "secret" + secret);
+                    Log.d("hello", "token" + token);
+                    Log.d("hello", "twitterSession.getUserId" + twitterSession.getUserId());
+
+
+//                    TwitterApiClient twitterApiClient = TwitterCore.getInstance().getApiClient();
+//                    StatusesService statusesService = twitterApiClient.getStatusesService();
+//                    Call<Tweet> call = statusesService.show(524971209851543553L, null, null, null);
+//                    call.enqueue(new Callback<Tweet>() {
+//                        @Override
+//                        public void success(Result<Tweet> result) {
+//                            //Do something with result
+//                        }
+//
+//                        public void failure(TwitterException exception) {
+//                            //Do something on failure
+//                        }
+//                    });
+
+
+
+
+
+
+                    CustomTwitterApiClient twitterApiClient = new CustomTwitterApiClient(twitterSession);
+                    twitterApiClient
+                            .getCustomTwitterService()
+                            .getUserFollowersList(twitterSession.getUserId()).enqueue(new Callback<FollowerListResponse>() {
+                        @Override
+                        public void success(Result<FollowerListResponse> resdult) {
+
+                        }
+
+                        @Override
+                        public void failure(TwitterException exception) {
+
+                        }
+                    });
+
+
+
                 }
 
                 @Override
