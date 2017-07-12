@@ -15,7 +15,8 @@ import retrofit2.http.Query;
 public interface CustomTwitterApiService {
 
     @GET("/1.1/followers/list.json")
-    Call<FollowerListResponse> getUserFollowersList(@Query("user_id") long id);
+    Call<FollowerListResponse> getUserFollowersList(@Query("user_id") long id,
+                                                    @Query("cursor") long cursor);
 //    Call<ResponseBody> getUserFollowersList(@Query("user_id") long id);
 //    Observable<FollowerListResponse> getUserFollowersList(@Query("user_id") long id);
 }

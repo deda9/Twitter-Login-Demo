@@ -75,7 +75,7 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
             }
         });
     }
-
+//TODO: Need to refactor this once we did all apis
     private void getUserEmailSilence(final TwitterSession twitterSession) {
         if(twitterClient != null){
             twitterClient.requestEmail(twitterSession, new Callback<String>() {
@@ -110,12 +110,29 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
 
 
 
-                    CustomTwitterApiClient twitterApiClient = new CustomTwitterApiClient(twitterSession);
+                    final CustomTwitterApiClient twitterApiClient = new CustomTwitterApiClient(twitterSession);
                     twitterApiClient
                             .getCustomTwitterService()
-                            .getUserFollowersList(twitterSession.getUserId()).enqueue(new Callback<FollowerListResponse>() {
+                            .getUserFollowersList(twitterSession.getUserId(), -1).enqueue(new Callback<FollowerListResponse>() {
                         @Override
                         public void success(Result<FollowerListResponse> resdult) {
+
+
+                            Log.d("sdsdsd", resdult.data.getNextCursor() +" n");
+
+                            twitterApiClient
+                                    .getCustomTwitterService()
+                                    .getUserFollowersList(twitterSession.getUserId(), resdult.data.getNextCursor()).enqueue(new Callback<FollowerListResponse>() {
+                                @Override
+                                public void success(Result<FollowerListResponse> resdult) {
+
+                                }
+
+                                @Override
+                                public void failure(TwitterException exception) {
+
+                                }
+                            });
 
                         }
 

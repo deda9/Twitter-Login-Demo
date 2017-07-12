@@ -16,20 +16,20 @@ import java.util.List;
 public class FollowerListResponse {
 
     @SerializedName("next_cursor")
-    private double nextCursor;
+    private long nextCursor;
     @SerializedName("next_cursor_str")
     private String nextCursorStr;
     @SerializedName("previous_cursor")
-    private int previousCursor;
+    private long previousCursor;
     @SerializedName("previous_cursor_str")
     private String previousCursorStr;
     @SerializedName("users")
     private List<User> users;
 
-    public void setNextCursor(double nextCursor){
+    public void setNextCursor(long nextCursor){
         this.nextCursor = nextCursor;
     }
-    public double getNextCursor(){
+    public long getNextCursor(){
         return this.nextCursor;
     }
     public void setNextCursorStr(String nextCursorStr){
@@ -38,10 +38,10 @@ public class FollowerListResponse {
     public String getNextCursorStr(){
         return this.nextCursorStr;
     }
-    public void setPreviousCursor(int previousCursor){
+    public void setPreviousCursor(long previousCursor){
         this.previousCursor = previousCursor;
     }
-    public int getPreviousCursor(){
+    public long getPreviousCursor(){
         return this.previousCursor;
     }
     public void setPreviousCursorStr(String previousCursorStr){
