@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 
 import com.twitter.demo.R;
 import com.twitter.demo.ui.base.BaseFragment;
+import com.twitter.demo.ui.followers.FollowersActivity;
 
 import butterknife.BindString;
 import butterknife.ButterKnife;
@@ -58,6 +59,7 @@ public class LoginFragment extends BaseFragment implements LoginFragmentPresente
     @Override
     public void onSuccessTwitterLogin() {
         getBaseActivity().showToast(twitterSuccessLoginMessage);
+        startActivity(new Intent(getActivity(), FollowersActivity.class));
     }
 
     @Override
