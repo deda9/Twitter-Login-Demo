@@ -5,6 +5,7 @@
     <color name="colorPrimaryDark">#0f3612</color>
     <color name="colorAccent">#050505</color>
     <color name="list_side_bar_divider">#d2cfcf</color>
+    <color name="grey">#9c9a9a</color>
     <color name="gray_background">#eef3fa</color>
     <color name="list_side_bar_background">#ffffff</color>
     <color name="white">#ffffff</color>
