@@ -32,7 +32,6 @@ public class LoginFragment extends BaseFragment implements LoginFragmentPresente
     @BindString(R.string.on_success_twitter_login)
     public String twitterSuccessLoginMessage;
 
-
     LoginFragmentPresenter loginFragmentPresenter;
 
     public LoginFragment() {

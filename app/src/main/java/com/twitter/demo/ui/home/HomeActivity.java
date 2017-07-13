@@ -24,7 +24,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class HomeActivity extends BaseActivity {
- private  List<Tab> tabsList;
+    private List<Tab> tabsList;
 
     @BindView(R.id.tv_tool_bar_title)
     TextView tvToolBarTitle;
@@ -49,19 +49,11 @@ public class HomeActivity extends BaseActivity {
         setContentView(R.layout.activity_home);
         ButterKnife.bind(this);
         ButterKnife.bind(this);
+        setToolBarTextView(tvToolBarTitle);
         setToolBarTitle(profileTitle);
         setupTabs();
         replaceFragment(getResources().getString(R.string.tab_profile_title), new ProfileFragment());
         changeTabBackground(Constants.tabsName.PROFILE);
-    }
-
-    public void setToolBarTextView(TextView toolBarTextView){
-        this.tvToolBarTitle =  toolBarTextView;
-    }
-    public void setToolBarTitle(String title) {
-        if (tvToolBarTitle != null)
-            tvToolBarTitle.setText(title);
-        setTitle("");
     }
 
     @OnClick(R.id.profile_tab)
@@ -91,7 +83,7 @@ public class HomeActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
-        if(getSupportFragmentManager().findFragmentById(R.id.frame_container) instanceof ProfileFragment){
+        if (getSupportFragmentManager().findFragmentById(R.id.frame_container) instanceof ProfileFragment) {
             super.onBackPressed();
             finish();
         } else {

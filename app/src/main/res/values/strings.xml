@@ -10,5 +10,10 @@
     <string name="tab_profile_title">Profile</string>
     <string name="tab_followers_title">Followers</string>
     <string name="tab_setting_titles">Setting</string>
+    <string name="lang">Change Language</string>
+    <string name="log_out">Log Out</string>
+    <string name="arabic">Arabic  </string>
+    <string name="english">English</string>
+    <string name="change_lang">Change Language</string>
 
 </resources>

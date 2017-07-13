@@ -7,13 +7,18 @@ package com.twitter.demo;
  */
 
 import android.app.Application;
+import android.content.res.Configuration;
+import android.util.DisplayMetrics;
 import android.util.Log;
 
 import com.twitter.demo.utilities.Constants;
+import com.twitter.demo.utilities.SharedPrefUtilis;
 import com.twitter.sdk.android.core.DefaultLogger;
 import com.twitter.sdk.android.core.Twitter;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 import com.twitter.sdk.android.core.TwitterConfig;
+
+import java.util.Locale;
 
 /**
  * Created by Bassem Qoulta (Deda) on  7/10/17.
@@ -24,9 +29,37 @@ import com.twitter.sdk.android.core.TwitterConfig;
 
 public class TwitterDemoApp extends Application {
 
+    private Locale locale;
+
     @Override
     public void onCreate() {
         initializeTwitter();
+        String lang = SharedPrefUtilis.getCurrentLang(this);
+        switchLanguage(lang);
+    }
+
+
+    public void switchLanguage(String lang) {
+        Configuration configuration = getBaseContext().getResources().getConfiguration();
+        DisplayMetrics displayMetrics = getBaseContext().getResources().getDisplayMetrics();
+
+        locale = new Locale(lang);
+        Locale.setDefault(locale);
+        Configuration newConfiguration = new Configuration(configuration);
+        newConfiguration.setLocale(locale);
+
+        getBaseContext().getResources().updateConfiguration(newConfiguration, displayMetrics);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        if (locale != null) {
+            Locale.setDefault(locale);
+            Configuration config = new Configuration(newConfig);
+            config.setLocale(locale);
+            getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+        }
     }
 
     private void initializeTwitter() {

@@ -8,7 +8,7 @@ android {
     buildToolsVersion "24.0.2"
     defaultConfig {
         applicationId "com.eventtus.twitter.demo"
-        minSdkVersion 14
+        minSdkVersion 17
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -36,11 +36,6 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.0.1'
     apt 'com.jakewharton:butterknife-compiler:8.0.1'
 
-    //Retrofit
-//    compile 'com.google.code.gson:gson:2.6.2'
-//    compile 'com.squareup.retrofit2:retrofit:2.0.2'
-//    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
-
     //Picasso
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.squareup.okhttp:okhttp:2.4.0'
@@ -52,10 +47,6 @@ dependencies {
     //RXJava
     compile 'io.reactivex:rxjava:1.1.6'
     compile 'com.artemzin.rxjava:proguard-rules:1.2.6.0'
-//    compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
-
-    //OKHttp Logging
-//    compile 'com.squareup.okhttp3:logging-interceptor:3.3.0'
 
     //In some cases it may be desirable to include only the necessary dependencies to avoid the Android dex limit.
     compile 'com.twitter.sdk.android:twitter-core:3.0.0'

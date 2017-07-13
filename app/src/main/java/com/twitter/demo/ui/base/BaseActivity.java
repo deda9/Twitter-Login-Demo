@@ -13,6 +13,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.twitter.demo.R;
@@ -35,6 +36,7 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
     private Toolbar mToolbar;
     private final String TAG = getClass().getSimpleName();
     private ProgressDialog dialog;
+    TextView toolBarTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,6 +93,16 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
         NetworkInfo activeNetworkInfo = connectivityManager
                 .getActiveNetworkInfo();
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
+
+    public void setToolBarTextView(TextView toolBarTextView) {
+        this.toolBarTextView = toolBarTextView;
+    }
+
+    public void setToolBarTitle(String title) {
+        if (toolBarTextView != null)
+            toolBarTextView.setText(title);
+        setTitle("");
     }
 
     //MARK: Views calls

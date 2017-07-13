@@ -4,7 +4,7 @@
     <color name="green_light">#0c8c4c</color>
     <color name="colorPrimaryDark">#0f3612</color>
     <color name="colorAccent">#050505</color>
-    <color name="list_side_bar_divider">#d2cfcf</color>
+    <color name="light_grey">#d2cfcf</color>
     <color name="grey">#9c9a9a</color>
     <color name="gray_background">#eef3fa</color>
     <color name="list_side_bar_background">#ffffff</color>
@@ -15,4 +15,5 @@
     <color name="side_bar_line">#678259</color>
     <color name="tool_bar">#ffffff</color>
     <color name="twitter_color">#1da1f2</color>
+    <color name="red">#f21d1d</color>
 </resources>

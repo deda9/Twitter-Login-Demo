@@ -10,6 +10,7 @@ package com.twitter.demo.utilities;
 
 public class Constants {
 
+    public static final String CURRENT_LANG = "CURRENT_LANG" ;
     public static final String SHARED_PREF_NAME = "EVENTTUS_DEMO" ;
     public static final String BASE_URL = "EVENTTUS_DEMO" ;
 
@@ -23,4 +24,5 @@ public class Constants {
         FOLLOWERS,
         SETTINGS,
     }
+
 }
