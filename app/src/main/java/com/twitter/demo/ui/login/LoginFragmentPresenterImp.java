@@ -5,14 +5,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.twitter.demo.api.CustomTwitterApiClient;
-import com.twitter.demo.models.FollowerListResponse;
 import com.twitter.sdk.android.core.Callback;
 import com.twitter.sdk.android.core.Result;
-import com.twitter.sdk.android.core.TwitterAuthToken;
+import com.twitter.sdk.android.core.TwitterApiClient;
 import com.twitter.sdk.android.core.TwitterException;
 import com.twitter.sdk.android.core.TwitterSession;
 import com.twitter.sdk.android.core.identity.TwitterAuthClient;
+import com.twitter.sdk.android.core.models.User;
 
 import java.lang.ref.WeakReference;
 
@@ -30,11 +29,13 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
     private LoginView mLoginView;
     private TwitterAuthClient twitterClient;
     private WeakReference<Context> mWeakReference;
+    private LoginFragmentInteractor loginInteractor;
 
 
     public LoginFragmentPresenterImp(LoginView loginView, Context context) {
         mLoginView = loginView;
         mWeakReference = new WeakReference<Context>(context);
+        loginInteractor = new  LoginFragmentInteractorImp(context);
     }
 
     @Override
@@ -54,11 +55,8 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
             @Override
             public void success(Result<TwitterSession> result) {
                 if (mLoginView != null) {
-
-                    Log.d("hello", result.data.getUserName());
-                    Log.d("hello", "4");
-                    getUserEmailSilence(result.data);
-                    mLoginView.onSuccessTwitterLogin();
+                    mLoginView.showProgressDialog();
+                    getUserAccountInfo(result.data);
                 }else {
                     Log.e(TAG,"mLoginView is null, so we can't call onSuccessTwitterLogin for it");
                 }
@@ -69,89 +67,92 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
                 if (mLoginView != null) {
                     mLoginView.onFailTwitterLogin();
                     twitterClient.cancelAuthorize();
-                    Log.d("hello", exception.getLocalizedMessage());
-                    Log.d("hello", "5");
                 }
             }
         });
     }
-//TODO: Need to refactor this once we did all apis
-    private void getUserEmailSilence(final TwitterSession twitterSession) {
-        if(twitterClient != null){
-            twitterClient.requestEmail(twitterSession, new Callback<String>() {
-                @Override
-                public void success(Result<String> result) {
-                    Log.d("hello", "userEmail" + result.data);
+    private void getUserAccountInfo(final TwitterSession twitterSession) {
+        TwitterApiClient twitterApiClient = new TwitterApiClient(twitterSession);
+        twitterApiClient
+                .getAccountService()
+                .verifyCredentials(false, false, true)
+                .enqueue(new Callback<User>() {
+                    @Override
+                    public void success(Result<User> result) {
 
-                    TwitterAuthToken authToken = twitterSession.getAuthToken();
-                    String token = authToken.token;
-                    String secret = authToken.secret;
-                    Log.d("hello", "secret" + secret);
-                    Log.d("hello", "token" + token);
-                    Log.d("hello", "twitterSession.getUserId" + twitterSession.getUserId());
+                        LoginFragmentPresenterImp.this.loginInteractor.saveUserAccountInfo(result.data);
+
+                        if(LoginFragmentPresenterImp.this.mLoginView != null){
+                            LoginFragmentPresenterImp.this.mLoginView.onSuccessTwitterLogin();
+                        }
+                    }
+
+                    @Override
+                    public void failure(TwitterException exception) {
+                        Log.e(TAG," we can't call getUserAccountInfo, Failed");
+                    }
+                });
 
 
-//                    TwitterApiClient twitterApiClient = TwitterCore.getInstance().getApiClient();
-//                    StatusesService statusesService = twitterApiClient.getStatusesService();
-//                    Call<Tweet> call = statusesService.show(524971209851543553L, null, null, null);
-//                    call.enqueue(new Callback<Tweet>() {
+
+
+
+
+
+//
+//        if(twitterClient != null){
+//            twitterClient.requestEmail(twitterSession, new Callback<String>() {
+//                @Override
+//                public void success(Result<String> result) {
+//                    TwitterAuthToken authToken = twitterSession.getAuthToken();
+
+
+
+
+
+//
+//                    final CustomTwitterApiClient twitterApiClient = new CustomTwitterApiClient(twitterSession);
+//                    twitterApiClient
+//                            .getCustomTwitterService()
+//                            .getUserFollowersList(twitterSession.getUserId(), -1).enqueue(new Callback<FollowerListResponse>() {
 //                        @Override
-//                        public void success(Result<Tweet> result) {
-//                            //Do something with result
+//                        public void success(Result<FollowerListResponse> resdult) {
+//
+//
+//                            Log.d("sdsdsd", resdult.data.getNextCursor() +" n");
+//
+//                            twitterApiClient
+//                                    .getCustomTwitterService()
+//                                    .getUserFollowersList(twitterSession.getUserId(), resdult.data.getNextCursor()).enqueue(new Callback<FollowerListResponse>() {
+//                                @Override
+//                                public void success(Result<FollowerListResponse> resdult) {
+//
+//                                }
+//
+//                                @Override
+//                                public void failure(TwitterException exception) {
+//
+//                                }
+//                            });
+//
 //                        }
 //
+//                        @Override
 //                        public void failure(TwitterException exception) {
-//                            //Do something on failure
+//
 //                        }
 //                    });
 
 
 
+//                }
 
-
-
-                    final CustomTwitterApiClient twitterApiClient = new CustomTwitterApiClient(twitterSession);
-                    twitterApiClient
-                            .getCustomTwitterService()
-                            .getUserFollowersList(twitterSession.getUserId(), -1).enqueue(new Callback<FollowerListResponse>() {
-                        @Override
-                        public void success(Result<FollowerListResponse> resdult) {
-
-
-                            Log.d("sdsdsd", resdult.data.getNextCursor() +" n");
-
-                            twitterApiClient
-                                    .getCustomTwitterService()
-                                    .getUserFollowersList(twitterSession.getUserId(), resdult.data.getNextCursor()).enqueue(new Callback<FollowerListResponse>() {
-                                @Override
-                                public void success(Result<FollowerListResponse> resdult) {
-
-                                }
-
-                                @Override
-                                public void failure(TwitterException exception) {
-
-                                }
-                            });
-
-                        }
-
-                        @Override
-                        public void failure(TwitterException exception) {
-
-                        }
-                    });
-
-
-
-                }
-
-                @Override
-                public void failure(TwitterException exception) {
-
-                }
-            });
-        }
+//                @Override
+//                public void failure(TwitterException exception) {
+//
+//                }
+//            });
+//        }
     }
 
     @Override
@@ -169,5 +170,7 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
         void onSuccessTwitterLogin();
 
         void onFailTwitterLogin();
+
+        void showProgressDialog();
     }
 }

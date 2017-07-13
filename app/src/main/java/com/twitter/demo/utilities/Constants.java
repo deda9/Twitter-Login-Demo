@@ -17,6 +17,10 @@ public class Constants {
     //Twitter Keys
     public static final String TWITTER_CONSUMER_KEY = "TmwFxw3XLjzZ36SJWYjhiezZs" ;
     public static final String TWITTER_CONSUMER_SECRET = "auUEE1ibeU90Za2S7yPY4fE3beEtTCdzFZvltDkL0nMDq5zdHR" ;
+    public static final String USER_ID = "USER_ID" ;
+    public static final String USER_EMAIL = "USER_EMAIL";
+    public static final String USER_NAME = "USER_NAME";
+    public static final String USER_SCREEN_NAME = "USER_SCREEN_NAME";
 
 
     public enum tabsName{

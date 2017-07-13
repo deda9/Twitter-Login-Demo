@@ -1,4 +1,7 @@
 package com.twitter.demo.ui.login;
+
+import com.twitter.sdk.android.core.models.User;
+
 /**
  * Created by Bassem Qoulta (Deda) on  7/10/17.
  * Bassem.Qoulta@gmail.com
@@ -7,4 +10,6 @@ package com.twitter.demo.ui.login;
  */
 
 public interface LoginFragmentInteractor {
+    void saveUserAccountInfo(User user);
+
 }

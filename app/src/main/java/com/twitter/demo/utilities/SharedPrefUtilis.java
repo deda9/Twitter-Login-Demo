@@ -3,6 +3,8 @@ package com.twitter.demo.utilities;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import com.twitter.sdk.android.core.models.User;
+
 import java.lang.ref.WeakReference;
 
 /**
@@ -36,8 +38,52 @@ public class SharedPrefUtilis {
     }
 
 
-    public static String getUserID() {
+    public static String getUserID(Context context) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_ID, "ar");
+    }
 
-        return "f";
+    public static void setUserId(Context context, String id) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        getSharedPrefInstance(weakReference.get()).edit().putString(Constants.USER_ID, id).apply();
+    }
+
+    public static String getUserName(Context context) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_NAME, "User Name");
+    }
+
+    public static void setUserName(Context context, String userName) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        getSharedPrefInstance(weakReference.get()).edit().putString(Constants.USER_NAME, userName).apply();
+    }
+
+    public static String getUserEmail(Context context) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_EMAIL, "null");
+    }
+
+    public static void setUserScreenName(Context context, String userName) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        getSharedPrefInstance(weakReference.get()).edit().putString(Constants.USER_SCREEN_NAME, userName).apply();
+    }
+
+    public static String getUserScreenName(Context context) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_SCREEN_NAME, "null");
+    }
+
+
+    public static void setUserEmail(Context context, String email) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        getSharedPrefInstance(weakReference.get()).edit().putString(Constants.USER_EMAIL, email).apply();
+    }
+
+
+    public static void saveUserAccountInfo(Context context, User user) {
+        setUserEmail(context, user.email);
+        setUserName(context, user.name);
+        setUserScreenName(context, user.screenName);
+        setUserId(context, String.valueOf(user.id));
     }
 }

@@ -6,5 +6,5 @@ package com.twitter.demo.ui.followers;
  * +201225361630
  */
 
-public class FollowersFragmentPresenter {
+public interface FollowersFragmentPresenter {
 }

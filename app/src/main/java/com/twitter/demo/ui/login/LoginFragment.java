@@ -3,7 +3,6 @@ package com.twitter.demo.ui.login;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,7 +49,6 @@ public class LoginFragment extends BaseFragment implements LoginFragmentPresente
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Log.d("hello", "2");
         loginFragmentPresenter.onActivityResult(requestCode, resultCode, data);
     }
 
@@ -58,6 +56,7 @@ public class LoginFragment extends BaseFragment implements LoginFragmentPresente
     @Override
     public void onSuccessTwitterLogin() {
         getBaseActivity().showToast(twitterSuccessLoginMessage);
+        hideProgressDialog();
         startActivity(new Intent(getActivity(), HomeActivity.class));
     }
 
