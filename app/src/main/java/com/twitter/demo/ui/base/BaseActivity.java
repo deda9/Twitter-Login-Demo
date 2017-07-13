@@ -130,7 +130,7 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
         super.onConfigurationChanged(paramConfiguration);
     }
 
-    protected void replaceFragment(Fragment fragment) {
+    protected void replaceFragment(String title,Fragment fragment) {
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.fragment_container, fragment, fragment.getClass().getName())

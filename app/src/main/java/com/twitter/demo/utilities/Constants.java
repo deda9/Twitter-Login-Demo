@@ -10,10 +10,17 @@ package com.twitter.demo.utilities;
 
 public class Constants {
 
-    public static final String SHARED_PREF_NAME = "PROTIEN" ;
-    public static final String BASE_URL = "PROTIEN" ;
+    public static final String SHARED_PREF_NAME = "EVENTTUS_DEMO" ;
+    public static final String BASE_URL = "EVENTTUS_DEMO" ;
 
     //Twitter Keys
     public static final String TWITTER_CONSUMER_KEY = "TmwFxw3XLjzZ36SJWYjhiezZs" ;
     public static final String TWITTER_CONSUMER_SECRET = "auUEE1ibeU90Za2S7yPY4fE3beEtTCdzFZvltDkL0nMDq5zdHR" ;
+
+
+    public enum tabsName{
+        PROFILE,
+        FOLLOWERS,
+        SETTINGS,
+    }
 }

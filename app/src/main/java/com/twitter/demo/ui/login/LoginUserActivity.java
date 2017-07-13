@@ -2,7 +2,6 @@ package com.twitter.demo.ui.login;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 
 import com.twitter.demo.R;
 import com.twitter.demo.ui.base.BaseActivity;
@@ -32,7 +31,6 @@ public class LoginUserActivity extends BaseActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Log.d("hello", "1");
         loginFragment.onActivityResult(requestCode, resultCode, data);
     }
 }

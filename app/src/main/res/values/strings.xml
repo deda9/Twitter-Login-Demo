@@ -7,5 +7,8 @@
     <string name="on_success_twitter_login">login success</string>
     <string name="on_fail_twitter_login">fail</string>
     <string name="login_with_twitter">Login With Twitter</string>
+    <string name="tab_profile_title">Profile</string>
+    <string name="tab_followers_title">Followers</string>
+    <string name="tab_setting_titles">Setting</string>
 
 </resources>
