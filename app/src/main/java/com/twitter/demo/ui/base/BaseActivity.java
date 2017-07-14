@@ -142,7 +142,8 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
         super.onConfigurationChanged(paramConfiguration);
     }
 
-    protected void replaceFragment(String title,Fragment fragment) {
+    protected void replaceFragment(String title, Fragment fragment) {
+        toolBarTextView.setText(title);
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.fragment_container, fragment, fragment.getClass().getName())

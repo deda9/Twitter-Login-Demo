@@ -54,4 +54,8 @@ dependencies {
     compile 'com.twitter.sdk.android:tweet-composer:3.0.0'
     compile 'com.twitter.sdk.android:twitter-mopub:3.0.0'
 
+    //Circular image
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
+
 }

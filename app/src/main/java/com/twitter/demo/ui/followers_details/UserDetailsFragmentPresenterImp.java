@@ -21,9 +21,9 @@ public class UserDetailsFragmentPresenterImp implements UserDetailsFragmentPrese
     private WeakReference<Context> weakReference;
 
     public UserDetailsFragmentPresenterImp(Context context, UserDetailsViews detailsViews) {
+        weakReference = new WeakReference<>(context);
         this.detailsViews = detailsViews;
         interactor = new UserDetailsFragmentInteractorImp(weakReference.get());
-        weakReference = new WeakReference<>(context);
     }
 
     @Override

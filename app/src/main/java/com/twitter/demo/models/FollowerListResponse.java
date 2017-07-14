@@ -5,8 +5,6 @@ import com.twitter.sdk.android.core.models.User;
 
 import java.util.List;
 
-import io.realm.RealmObject;
-
 /**
  * Created by Bassem Qoulta (Deda) on  7/12/17.
  * Bassem.Qoulta@gmail.com
@@ -15,7 +13,7 @@ import io.realm.RealmObject;
  */
 
 
-public class FollowerListResponse  extends RealmObject {
+public class FollowerListResponse  {
 
     @SerializedName("next_cursor")
     private long nextCursor;

@@ -14,6 +14,7 @@ import com.twitter.demo.ui.tabs.ProfileTab;
 import com.twitter.demo.ui.tabs.SettingTab;
 import com.twitter.demo.ui.tabs.Tab;
 import com.twitter.demo.utilities.Constants;
+import com.twitter.demo.utilities.SharedPrefUtilis;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,8 +24,12 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_NAME_KEY;
+import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCREEN_NAME_KEY;
+
 public class HomeActivity extends BaseActivity {
     private List<Tab> tabsList;
+    private ProfileFragment profileFragment;
 
     @BindView(R.id.tv_tool_bar_title)
     TextView tvToolBarTitle;
@@ -43,22 +48,32 @@ public class HomeActivity extends BaseActivity {
     @BindString(R.string.tab_profile_title)
     public String profileTitle;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         ButterKnife.bind(this);
-        ButterKnife.bind(this);
         setToolBarTextView(tvToolBarTitle);
         setToolBarTitle(profileTitle);
         setupTabs();
-        replaceFragment(getResources().getString(R.string.tab_profile_title), new ProfileFragment());
+        replaceFragment(getResources().getString(R.string.tab_profile_title), getProfileFragment());
         changeTabBackground(Constants.tabsName.PROFILE);
+    }
+
+
+    private ProfileFragment getProfileFragment() {
+        if (profileFragment == null)
+            profileFragment = new ProfileFragment();
+        Bundle bundle = new Bundle();
+        bundle.putString(USER_SCREEN_NAME_KEY, SharedPrefUtilis.getUserScreenName(this));
+        profileFragment.setArguments(bundle);
+        return profileFragment;
     }
 
     @OnClick(R.id.profile_tab)
     public void openProfile() {
-        replaceFragment(getResources().getString(R.string.tab_profile_title), new ProfileFragment());
+        replaceFragment(getResources().getString(R.string.tab_profile_title), getProfileFragment());
         changeTabBackground(Constants.tabsName.PROFILE);
     }
 
@@ -83,11 +98,11 @@ public class HomeActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
-        if (getSupportFragmentManager().findFragmentById(R.id.frame_container) instanceof ProfileFragment) {
+        if (getSupportFragmentManager().findFragmentById(R.id.fragment_container) instanceof ProfileFragment) {
             super.onBackPressed();
             finish();
         } else {
-            replaceFragment(getResources().getString(R.string.tab_profile_title), new ProfileFragment());
+            replaceFragment(getResources().getString(R.string.tab_profile_title), getProfileFragment());
             changeTabBackground(Constants.tabsName.PROFILE);
         }
     }

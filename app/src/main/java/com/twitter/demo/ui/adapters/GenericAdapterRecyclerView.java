@@ -22,7 +22,9 @@ public abstract class GenericAdapterRecyclerView<T, VH extends RecyclerView.View
     }
 
     public GenericAdapterRecyclerView(final List<T> objects) {
-        itemsArrayList = objects;
+        if (itemsArrayList == null)
+            itemsArrayList = new ArrayList<>();
+        itemsArrayList.addAll(objects);
     }
 
     /**

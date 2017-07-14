@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 
 import com.twitter.demo.R;
 import com.twitter.demo.models.FollowerListResponse;
@@ -21,6 +22,7 @@ import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_NAME_KEY;
 import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCREEN_NAME_KEY;
 
 /**
@@ -37,6 +39,8 @@ public class FollowersFragment extends BaseFragment implements FollowersFragment
     public String tryAgain;
     @BindView(R.id.rc_followers)
     RecyclerView rcFollowers;
+    @BindView(R.id.pr_loading_more)
+    ProgressBar prLoadingMore;
 
     private FollowersFragmentPresenter followersPresenter;
     private FollowersAdapter adapter;
@@ -58,26 +62,30 @@ public class FollowersFragment extends BaseFragment implements FollowersFragment
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        if (getBaseActivity() != null)
+            getBaseActivity().showProgressDialog();
         followersPresenter.getFollowersList(nextCursor);
     }
 
     @Override
     public void setupRecyclerView(FollowerListResponse data) {
-        if(adapter == null){
-            adapter = new FollowersAdapter(data.getUsers(),this);
+        if (adapter == null) {
+            adapter = new FollowersAdapter(data.getUsers(), this);
             rcFollowers.setHasFixedSize(true);
             LinearLayoutManager manager = new LinearLayoutManager(getActivity());
             setupPagination(rcFollowers, manager);
             rcFollowers.setLayoutManager(manager);
             rcFollowers.setAdapter(adapter);
-        }else{
+        } else {
             adapter.addAll(data.getUsers());
+            prLoadingMore.setVisibility(View.GONE);
         }
     }
 
     @Override
     public void loadMoreData() {
-        if(this.nextCursor != 0){
+        if (this.nextCursor != 0) {
+            prLoadingMore.setVisibility(View.VISIBLE);
             followersPresenter.getFollowersList(this.nextCursor);
         }
     }
@@ -97,6 +105,7 @@ public class FollowersFragment extends BaseFragment implements FollowersFragment
     public void onItemClicked(int position, User user) {
         Intent intent = new Intent(getActivity(), UserDetailsActivity.class);
         intent.putExtra(USER_SCREEN_NAME_KEY, user.screenName);
+        intent.putExtra(USER_NAME_KEY, user.name);
         startActivity(intent);
     }
 
@@ -107,7 +116,7 @@ public class FollowersFragment extends BaseFragment implements FollowersFragment
     }
 
     private void destroyPresenter() {
-        if(followersPresenter != null){
+        if (followersPresenter != null) {
             followersPresenter.onDestroy();
         }
     }

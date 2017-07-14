@@ -1,6 +1,6 @@
 package com.twitter.demo.ui.profile;
 
-import com.twitter.demo.ui.base.BaseFragment;
+import com.twitter.demo.ui.followers_details.UserDetailsFragment;
 
 /**
  * Created by Bassem Qoulta (Deda) on  7/13/17.
@@ -10,5 +10,5 @@ import com.twitter.demo.ui.base.BaseFragment;
  */
 
 
-public class ProfileFragment extends BaseFragment {
+public class ProfileFragment extends UserDetailsFragment {
 }

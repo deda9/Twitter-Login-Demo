@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.twitter.demo.R;
 import com.twitter.demo.utilities.BaseViewHolder;
+import com.twitter.demo.utilities.PicassoCache;
 import com.twitter.demo.utilities.RecyclerViewItemClickListener;
 import com.twitter.sdk.android.core.models.User;
 
@@ -103,6 +104,10 @@ public class FollowersAdapter extends GenericAdapterRecyclerView<User, Followers
         }
 
         private void setUserImage(String profileImageUrl) {
+            PicassoCache.getPicassoInstance(weakReference.get())
+                    .load(profileImageUrl)
+                    .placeholder(R.drawable.avatar)
+                    .into(ivProfile);
         }
 
         private void setUserName(String name) {

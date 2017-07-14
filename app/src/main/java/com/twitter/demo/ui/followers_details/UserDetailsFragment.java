@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.twitter.demo.R;
 import com.twitter.demo.ui.base.BaseFragment;
@@ -30,8 +29,8 @@ public class UserDetailsFragment extends BaseFragment implements UserDetailsFrag
 
     private UserDetailsFragmentPresenter presenter;
 
-    @BindView(R.id.tv_empty)
-    TextView tvEmpty;
+//    @BindView(R.id.tv_empty)
+//    TextView tvEmpty;
     @BindView(R.id.list_followers)
     ListView listFollowers;
 
@@ -69,7 +68,7 @@ public class UserDetailsFragment extends BaseFragment implements UserDetailsFrag
                 .setTimeline(userTimeline)
                 .build();
 
-        tvEmpty.setVisibility(View.GONE);
+//        tvEmpty.setVisibility(View.GONE);
         listFollowers.setVisibility(View.VISIBLE);
         listFollowers.setAdapter(adapter);
     }

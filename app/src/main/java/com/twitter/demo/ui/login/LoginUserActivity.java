@@ -25,7 +25,7 @@ public class LoginUserActivity extends BaseActivity {
 
     private void openLoginFragment() {
         loginFragment = new LoginFragment();
-        replaceFragment(loginFragment);
+        replaceFragment("",loginFragment);
     }
 
     @Override

@@ -12,7 +12,7 @@
             android:layout_height="match_parent">
 
             <FrameLayout
-                android:id="@+id/frame_container"
+                android:id="@+id/fragment_container"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_above="@+id/ly_taps" />
@@ -45,6 +45,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
                         android:text="@string/tab_profile_title"
+                        android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
                 </LinearLayout>
@@ -69,6 +70,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
                         android:text="@string/tab_followers_title"
+                        android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
                 </LinearLayout>
@@ -93,6 +95,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
                         android:text="@string/tab_setting_titles"
+                        android:textStyle="bold"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
                 </LinearLayout>

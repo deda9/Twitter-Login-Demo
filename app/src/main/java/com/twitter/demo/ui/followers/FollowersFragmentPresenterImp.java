@@ -53,18 +53,26 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
                     public void success(Result<FollowerListResponse> result) {
                         if (result == null || result.data == null) {
                             showErrorMessage();
+                            hideProgressDialog();
                             return;
                         }
 
-                        handleFollowersListSuccess(result);
                         saveFollowersResponse(result);
+                        handleFollowersListSuccess(result);
                     }
 
                     @Override
                     public void failure(TwitterException exception) {
+                        hideProgressDialog();
                         Log.d(TAG, "getUserFollowersList failure" );
                     }
                 });
+    }
+
+    private void hideProgressDialog() {
+        if (followersView != null) {
+            followersView.hideProgressDialog();
+        }
     }
 
     @Override
@@ -82,9 +90,9 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
 
     private void handleFollowersListSuccess(Result<FollowerListResponse> result) {
         if (followersView != null) {
-            followersView.setupRecyclerView(result.data);
             long nextCursor = result.data.getNextCursor();
             followersView.setNextCursor(nextCursor);
+            followersView.setupRecyclerView(result.data);
         }
     }
 
@@ -101,5 +109,7 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
         void showSomeThingWrong();
 
         void setNextCursor(long nextCursor);
+
+        void hideProgressDialog();
     }
 }

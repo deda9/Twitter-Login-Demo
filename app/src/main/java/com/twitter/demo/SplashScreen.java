@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
+import com.twitter.demo.ui.home.HomeActivity;
 import com.twitter.demo.ui.login.LoginUserActivity;
 import com.twitter.demo.utilities.SharedPrefUtilis;
 /**
@@ -27,7 +28,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 if (!SharedPrefUtilis.getUserID(SplashScreen.this).isEmpty()
                         && !SharedPrefUtilis.getUserID(SplashScreen.this).equals("none")) {
-                    startActivity(new Intent(SplashScreen.this, LoginUserActivity.class));
+                    startActivity(new Intent(SplashScreen.this, HomeActivity.class));
                     finish();
                 } else {
                     startActivity(new Intent(SplashScreen.this, LoginUserActivity.class));
