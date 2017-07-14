@@ -1,5 +1,6 @@
 package com.twitter.demo.ui.login;
 
+import com.twitter.sdk.android.core.TwitterSession;
 import com.twitter.sdk.android.core.models.User;
 
 /**
@@ -10,6 +11,8 @@ import com.twitter.sdk.android.core.models.User;
  */
 
 public interface LoginFragmentInteractor {
+
     void saveUserAccountInfo(User user);
 
+    void saveTwitterSession(TwitterSession twitterSession);
 }

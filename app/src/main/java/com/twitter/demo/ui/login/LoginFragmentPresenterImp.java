@@ -81,6 +81,7 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
                     public void success(Result<User> result) {
 
                         LoginFragmentPresenterImp.this.loginInteractor.saveUserAccountInfo(result.data);
+                        LoginFragmentPresenterImp.this.loginInteractor.saveTwitterSession(twitterSession);
 
                         if(LoginFragmentPresenterImp.this.mLoginView != null){
                             LoginFragmentPresenterImp.this.mLoginView.onSuccessTwitterLogin();

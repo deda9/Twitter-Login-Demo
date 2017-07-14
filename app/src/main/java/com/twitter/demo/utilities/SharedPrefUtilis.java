@@ -86,4 +86,14 @@ public class SharedPrefUtilis {
         setUserScreenName(context, user.screenName);
         setUserId(context, String.valueOf(user.id));
     }
+
+    public static void saveTwitterSession(Context context, String twitterSession) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        getSharedPrefInstance(weakReference.get()).edit().putString(Constants.USER_TWITTER_SESSION, twitterSession).apply();
+    }
+
+    public static String getTwitterSession(Context context) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_TWITTER_SESSION, "null");
+    }
 }

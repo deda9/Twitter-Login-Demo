@@ -21,6 +21,7 @@ public class Constants {
     public static final String USER_EMAIL = "USER_EMAIL";
     public static final String USER_NAME = "USER_NAME";
     public static final String USER_SCREEN_NAME = "USER_SCREEN_NAME";
+    public static final String USER_TWITTER_SESSION = "USER_TWITTER_SESSION";
 
 
     public enum tabsName{

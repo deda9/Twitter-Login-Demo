@@ -7,4 +7,5 @@ package com.twitter.demo.ui.followers;
  */
 
 public interface FollowersFragmentPresenter {
+    void getFollowersList(long nextCursor);
 }
