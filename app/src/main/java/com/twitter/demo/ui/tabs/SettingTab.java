@@ -3,6 +3,7 @@ package com.twitter.demo.ui.tabs;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.twitter.demo.R;
 import com.twitter.demo.utilities.Constants;
 
 
@@ -19,8 +20,8 @@ public class SettingTab extends Tab{
         this.text = textView;
         this.imageView = imageView;
         this.name = Constants.tabsName.SETTINGS;
-//        this.normalBackgroundId = R.drawable.ic_action_more2;
-//        this.pressedBackgroundId = R.drawable.ic_action_more;
+        this.normalBackgroundId = R.drawable.settings;
+        this.pressedBackgroundId = R.drawable.settings;
     }
 
 }
