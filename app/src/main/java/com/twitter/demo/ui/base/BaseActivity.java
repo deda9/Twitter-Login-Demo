@@ -143,7 +143,8 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
     }
 
     protected void replaceFragment(String title, Fragment fragment) {
-        toolBarTextView.setText(title);
+        if (toolBarTextView != null)
+            toolBarTextView.setText(title);
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.fragment_container, fragment, fragment.getClass().getName())

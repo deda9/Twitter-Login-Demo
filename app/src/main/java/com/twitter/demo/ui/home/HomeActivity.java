@@ -5,6 +5,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.twitter.demo.R;
+import com.twitter.demo.models.UserHeaderDataModel;
 import com.twitter.demo.ui.base.BaseActivity;
 import com.twitter.demo.ui.followers.FollowersFragment;
 import com.twitter.demo.ui.profile.ProfileFragment;
@@ -24,7 +25,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_NAME_KEY;
+import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_HEADER_MODEL_KEY;
 import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCREEN_NAME_KEY;
 
 public class HomeActivity extends BaseActivity {
@@ -67,8 +68,17 @@ public class HomeActivity extends BaseActivity {
             profileFragment = new ProfileFragment();
         Bundle bundle = new Bundle();
         bundle.putString(USER_SCREEN_NAME_KEY, SharedPrefUtilis.getUserScreenName(this));
+        bundle.putParcelable(USER_HEADER_MODEL_KEY, getUserHeaderModel());
         profileFragment.setArguments(bundle);
         return profileFragment;
+    }
+
+    private UserHeaderDataModel getUserHeaderModel() {
+        UserHeaderDataModel userModel = new UserHeaderDataModel();
+        userModel.userName = SharedPrefUtilis.getUserName(this);
+        userModel.profileUrl = SharedPrefUtilis.getUserProfileUrl(this);
+        userModel.backgroundUrl = SharedPrefUtilis.getUserBackgroundUrl(this);
+        return userModel;
     }
 
     @OnClick(R.id.profile_tab)

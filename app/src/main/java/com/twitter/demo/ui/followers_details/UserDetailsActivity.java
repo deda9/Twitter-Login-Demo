@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.twitter.demo.R;
+import com.twitter.demo.models.UserHeaderDataModel;
 import com.twitter.demo.ui.base.BaseActivity;
 
 import butterknife.BindView;
@@ -19,10 +20,11 @@ import butterknife.OnClick;
 public class UserDetailsActivity extends BaseActivity {
 
     public static String USER_SCREEN_NAME_KEY = "user_screen_name_key";
-    public static String USER_NAME_KEY = "user_name_key";
-
+    public static String USER_HEADER_MODEL_KEY = "user_header_model_key";
+    private UserHeaderDataModel userHeaderDataModel;
     @BindView(R.id.tv_tool_bar_title)
     TextView tvToolBarTitle;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,19 +33,23 @@ public class UserDetailsActivity extends BaseActivity {
         ButterKnife.bind(this);
         if (getIntent() != null && getIntent().getExtras() != null) {
             setToolBarTextView(tvToolBarTitle);
-            setToolBarTitle(getIntent().getExtras().getString(USER_NAME_KEY));
+            userHeaderDataModel = getIntent().getExtras().getParcelable(USER_HEADER_MODEL_KEY);
+
+            if (userHeaderDataModel != null) {
+                setToolBarTitle(userHeaderDataModel.userName);
+            }
             setUserDetailsFragment();
         }
     }
 
     private void setUserDetailsFragment() {
         UserDetailsFragment fragment = new UserDetailsFragment();
-
+        String userName = userHeaderDataModel.userName == null ? "Profile" : userHeaderDataModel.userName;
         Bundle bundle = new Bundle();
         bundle.putString(USER_SCREEN_NAME_KEY, getIntent().getExtras().getString(USER_SCREEN_NAME_KEY));
+        bundle.putParcelable(USER_HEADER_MODEL_KEY, userHeaderDataModel);
         fragment.setArguments(bundle);
-
-        replaceFragment(getIntent().getExtras().getString(USER_NAME_KEY), fragment);
+        replaceFragment(userName, fragment);
     }
 
     @OnClick(R.id.btn_back)

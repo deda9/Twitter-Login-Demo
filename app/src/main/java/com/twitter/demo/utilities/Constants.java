@@ -23,6 +23,8 @@ public class Constants {
     public static final String USER_SCREEN_NAME = "USER_SCREEN_NAME";
     public static final String USER_TWITTER_SESSION = "USER_TWITTER_SESSION";
     public static final String USER_TIME_LINE = "USER_TIME_LINE";
+    public static final String USER_BACKGROUND_URL = "USER_BACKGROUND_URL";
+    public static final String USER_PROFILE_URL = "USER_PROFILE_URL";
 
 
     public enum tabsName{

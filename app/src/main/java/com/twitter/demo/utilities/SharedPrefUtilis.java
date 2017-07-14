@@ -84,6 +84,8 @@ public class SharedPrefUtilis {
         setUserEmail(context, user.email);
         setUserName(context, user.name);
         setUserScreenName(context, user.screenName);
+        setUserBackgroundUrl(context, user.profileBackgroundImageUrl);
+        setUserProfileUrl(context, user.profileImageUrl);
         setUserId(context, String.valueOf(user.id));
     }
 
@@ -105,5 +107,25 @@ public class SharedPrefUtilis {
     public static String getLoggedUserTimeLine(Context context) {
         WeakReference<Context> weakReference = new WeakReference<>(context);
         return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_TIME_LINE, "null");
+    }
+
+    public static String getUserProfileUrl(Context context) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_PROFILE_URL, "null");
+    }
+
+    public static String getUserBackgroundUrl(Context context) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_BACKGROUND_URL, "null");
+    }
+
+    public static void setUserProfileUrl(Context context, String url) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        getSharedPrefInstance(weakReference.get()).edit().putString(Constants.USER_PROFILE_URL, url).apply();
+    }
+
+    public static void setUserBackgroundUrl(Context context, String url) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        getSharedPrefInstance(weakReference.get()).edit().putString(Constants.USER_BACKGROUND_URL, url).apply();
     }
 }

@@ -12,6 +12,7 @@ import android.widget.ProgressBar;
 
 import com.twitter.demo.R;
 import com.twitter.demo.models.FollowerListResponse;
+import com.twitter.demo.models.UserHeaderDataModel;
 import com.twitter.demo.ui.adapters.FollowersAdapter;
 import com.twitter.demo.ui.base.BaseFragment;
 import com.twitter.demo.ui.followers_details.UserDetailsActivity;
@@ -22,7 +23,7 @@ import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_NAME_KEY;
+import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_HEADER_MODEL_KEY;
 import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCREEN_NAME_KEY;
 
 /**
@@ -33,7 +34,9 @@ import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCR
  */
 
 
-public class FollowersFragment extends BaseFragment implements FollowersFragmentPresenterImp.FollowersView, RecyclerViewItemClickListener<User> {
+public class FollowersFragment extends BaseFragment
+        implements FollowersFragmentPresenterImp.FollowersView,
+        RecyclerViewItemClickListener<User> {
 
     @BindString(R.string.try_again)
     public String tryAgain;
@@ -102,11 +105,26 @@ public class FollowersFragment extends BaseFragment implements FollowersFragment
     }
 
     @Override
+    public void hideProgressDialogForFollowers() {
+        if(getBaseActivity() != null){
+            getBaseActivity().hideProgressDialog();
+        }
+    }
+
+    @Override
     public void onItemClicked(int position, User user) {
         Intent intent = new Intent(getActivity(), UserDetailsActivity.class);
         intent.putExtra(USER_SCREEN_NAME_KEY, user.screenName);
-        intent.putExtra(USER_NAME_KEY, user.name);
+        intent.putExtra(USER_HEADER_MODEL_KEY, getUserHeaderModel(user));
         startActivity(intent);
+    }
+
+    private UserHeaderDataModel getUserHeaderModel(User user) {
+        UserHeaderDataModel userModel = new UserHeaderDataModel();
+        userModel.userName = user.name;
+        userModel.backgroundUrl = user.profileBackgroundImageUrl;
+        userModel.profileUrl = user.profileImageUrl;
+        return userModel;
     }
 
     @Override

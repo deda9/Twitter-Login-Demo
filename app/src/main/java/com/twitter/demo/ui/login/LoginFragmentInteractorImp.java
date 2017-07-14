@@ -4,7 +4,6 @@ import android.content.Context;
 
 import com.google.gson.Gson;
 import com.twitter.demo.utilities.SharedPrefUtilis;
-import com.twitter.sdk.android.core.GuestSession;
 import com.twitter.sdk.android.core.TwitterSession;
 import com.twitter.sdk.android.core.models.User;
 
@@ -22,7 +21,7 @@ public class LoginFragmentInteractorImp  implements LoginFragmentInteractor{
     private WeakReference<Context> weakReference;
 
     public LoginFragmentInteractorImp(Context context) {
-        this.weakReference = new WeakReference<Context>(context);
+        this.weakReference = new WeakReference<>(context);
     }
 
     @Override
@@ -34,8 +33,5 @@ public class LoginFragmentInteractorImp  implements LoginFragmentInteractor{
     public void saveTwitterSession(TwitterSession twitterSession) {
         String twitterSessionSerialized = new Gson().toJson(twitterSession);
         SharedPrefUtilis.saveTwitterSession(weakReference.get(), twitterSessionSerialized);
-    }
-    public class d extends GuestSession.Serializer {
-
     }
 }
