@@ -32,7 +32,7 @@ public class UserDetailsFragmentInteractorImp implements UserDetailsFragmentInte
          *
          * TODO:: this part need refactor in the next phase
          * cause the object of realm need to extend RealmObject to save it
-         * cuase UserTimeline is not public object so, we need some time to do this
+         * cause UserTimeline is not public object so, we need some time to do this
          *
          * so fast & dirty way save this in shared
          * But NOTE,
@@ -43,7 +43,7 @@ public class UserDetailsFragmentInteractorImp implements UserDetailsFragmentInte
         try{
             SharedPrefUtilis.saveLoggedUserTimeLine(this.weakReference.get(), userTimelineString);
         }catch (OutOfMemoryError error){
-            Log.e("UserDetailsFragmet", "OutOfMemoryError while save TimeLine for user");
+            Log.e("UserDetailsFragment", "OutOfMemoryError while save TimeLine for user");
         }
 
     }

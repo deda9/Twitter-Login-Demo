@@ -40,7 +40,7 @@ public class UserDetailsFragmentPresenterImp implements UserDetailsFragmentPrese
     }
 
     /**
-     * In this phase -> we will only save the logged Tweet
+     * In this phase -> we will only save the logged user Tweets
      * <p>
      * TODO:: Save all the tweets for all the followers in the next phase
      *
@@ -49,9 +49,9 @@ public class UserDetailsFragmentPresenterImp implements UserDetailsFragmentPrese
      */
     private void saveLoggedUserTweets(String screenName, UserTimeline userTimeline) {
         if (!TextUtils.isEmpty(screenName)
-                && screenName.equals(SharedPrefUtilis.getUserName(weakReference.get()))
+                && screenName.equals(SharedPrefUtilis.getUserScreenName(weakReference.get()))
                 && interactor != null) {
-            interactor.saveLoggedUserTweets(userTimeline);
+//            interactor.saveLoggedUserTweets(userTimeline);
         }
     }
 

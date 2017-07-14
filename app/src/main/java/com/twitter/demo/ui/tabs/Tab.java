@@ -19,8 +19,8 @@ public class Tab {
     public Constants.tabsName name;
     public int normalBackgroundId;
     public int pressedBackgroundId;
-    public int normalColor = Color.WHITE;
-    public int pressedColor = Color.BLACK;
+    public int normalColor = Color.BLACK;
+    public int pressedColor = Color.WHITE;
     public TextView text;
     public ImageView imageView;
 }

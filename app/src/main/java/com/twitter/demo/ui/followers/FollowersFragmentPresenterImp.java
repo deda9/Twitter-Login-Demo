@@ -13,8 +13,6 @@ import com.twitter.sdk.android.core.TwitterSession;
 
 import java.lang.ref.WeakReference;
 
-import io.realm.Realm;
-
 import static com.twitter.sdk.android.core.Twitter.TAG;
 
 /**
@@ -32,7 +30,7 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
     public FollowersFragmentPresenterImp(FollowersView followersView, Context context) {
         this.weakReference = new WeakReference<>(context);
         this.followersView = followersView;
-        interactor = new FollowersFragmentInteractorImp(Realm.getDefaultInstance());
+        interactor = new FollowersFragmentInteractorImp();
     }
 
     @Override
