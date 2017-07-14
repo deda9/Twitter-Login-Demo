@@ -2,6 +2,7 @@ package com.twitter.demo.ui.followers_details;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,7 +33,7 @@ import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCR
 
 
 public class UserDetailsFragment extends BaseFragment
-        implements UserDetailsFragmentPresenterImp.UserDetailsViews {
+        implements UserDetailsFragmentPresenterImp.UserDetailsViews, SwipeRefreshLayout.OnRefreshListener {
 
     private UserDetailsFragmentPresenter presenter;
     private UserHeaderDataModel userHeaderDataModel;
@@ -41,6 +42,8 @@ public class UserDetailsFragment extends BaseFragment
     ListView listFollowers;
     @BindView(R.id.tv_empty)
     TextView tvEmpty;
+    @BindView(R.id.swipe_refresh_layout)
+    SwipeRefreshLayout swipeRefreshLayout;
 
     CircleImageView headerProfileImage;
     ImageView headerBackground;
@@ -65,6 +68,7 @@ public class UserDetailsFragment extends BaseFragment
         super.onActivityCreated(savedInstanceState);
         presenter = new UserDetailsFragmentPresenterImp(getActivity(), this);
         getUserTweets(getArguments().getString(USER_SCREEN_NAME_KEY));
+        swipeRefreshLayout.setOnRefreshListener(this);
     }
 
     private void getUserTweets(String screenName) {
@@ -75,6 +79,9 @@ public class UserDetailsFragment extends BaseFragment
 
     @Override
     public void onSuccessTweets(UserTimeline userTimeline) {
+        if(swipeRefreshLayout.isRefreshing())
+            swipeRefreshLayout.setRefreshing(false);
+
         final TweetTimelineListAdapter adapter = new TweetTimelineListAdapter
                 .Builder(getActivity())
                 .setTimeline(userTimeline)
@@ -82,7 +89,9 @@ public class UserDetailsFragment extends BaseFragment
 
         listFollowers.setVisibility(View.VISIBLE);
         listFollowers.setAdapter(adapter);
-        listFollowers.addHeaderView(getHeader());
+        if(listFollowers.getHeaderViewsCount() == 0){
+            listFollowers.addHeaderView(getHeader());
+        }
     }
 
     private View getHeader() {
@@ -95,7 +104,7 @@ public class UserDetailsFragment extends BaseFragment
     }
 
     private void setHeaderData() {
-        if(userHeaderDataModel == null) return;
+        if (userHeaderDataModel == null) return;
         headerUserName.setVisibility(View.VISIBLE);
         headerUserName.setText(userHeaderDataModel.userName);
         PicassoCache.getPicassoInstance(getActivity())
@@ -107,5 +116,11 @@ public class UserDetailsFragment extends BaseFragment
                 .load(userHeaderDataModel.backgroundUrl)
                 .placeholder(R.drawable.image_details_placeholder)
                 .into(headerBackground);
+    }
+
+    @Override
+    public void onRefresh() {
+        swipeRefreshLayout.setRefreshing(true);
+        getUserTweets(getArguments().getString(USER_SCREEN_NAME_KEY));
     }
 }
