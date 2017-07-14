@@ -2,10 +2,9 @@
     <string name="app_name">Twitter Demo</string>
     <string name="drawer_open">open</string>
     <string name="drawer_close">close</string>
-    <string name="no_network_try_again">There is no network connection, try again later</string>
-    <string name="error_no_internet_connection">s</string>
-    <string name="on_success_twitter_login">Your log in with Twitter account is Success</string>
-    <string name="on_fail_twitter_login">fail</string>
+    <string name="error_no_internet_connection">There is no network connection, try again later</string>
+    <string name="on_success_twitter_login">Your  Twitter account is logged in Successfully </string>
+    <string name="on_fail_twitter_login">Something went wrong, please try again later!</string>
     <string name="login_with_twitter">Login With Twitter</string>
     <string name="tab_profile_title">Profile</string>
     <string name="tab_followers_title">Followers</string>

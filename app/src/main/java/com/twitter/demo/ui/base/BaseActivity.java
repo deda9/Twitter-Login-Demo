@@ -108,12 +108,12 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
     //MARK: Views calls
     @Override
     public void showNoNetworkMessage() {
-        Toast.makeText(this, getResources().getString(R.string.no_network_try_again), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getResources().getString(R.string.error_no_internet_connection), Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void showGeneralError() {
-        Toast.makeText(this, getResources().getString(R.string.no_network_try_again), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getResources().getString(R.string.try_again), Toast.LENGTH_SHORT).show();
     }
 
     @Override

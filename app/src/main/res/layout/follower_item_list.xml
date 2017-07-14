@@ -22,6 +22,7 @@
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
+        android:paddingRight="10dp"
         android:layout_toRightOf="@+id/iv_profile"
         android:orientation="vertical">
 
@@ -34,7 +35,7 @@
             tools:text="Bassem Qoulta" />
 
         <TextView
-            android:id="@+id/tv_job"
+            android:id="@+id/tv_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Twitter Demo</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="error_no_internet_connection">لا يوجد اتصال بالانترنت الرجاء المحاولة مره اخري</string>
+    <string name="on_success_twitter_login">تم التسجيل حسابك بنجاح</string>
+    <string name="on_fail_twitter_login">لقد فشل تسجيل حسابك</string>
+    <string name="login_with_twitter">التسجيل بالتويتر</string>
+    <string name="tab_profile_title">البروفايل</string>
+    <string name="tab_followers_title">المتابعين</string>
+    <string name="tab_setting_titles">الاعدادات</string>
+    <string name="lang">تغيير اللغة</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="arabic">العربيه  </string>
+    <string name="english">English</string>
+    <string name="change_lang">تغيير اللغة</string>
+    <string name="try_again">لقد حدث خطا الرجاء المحاولة مره اخري</string>
+    <string name="loading_your_tweets">جاري تحميل تغريدادك</string>
+
+</resources>

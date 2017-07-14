@@ -63,8 +63,8 @@ public class FollowersAdapter extends GenericAdapterRecyclerView<User, Followers
         ImageView ivProfile;
         @BindView(R.id.tv_full_name)
         TextView tvFullName;
-        @BindView(R.id.tv_job)
-        TextView tvJob;
+        @BindView(R.id.tv_location)
+        TextView tvLocation;
         @BindView(R.id.tv_bio)
         TextView tvBio;
         @BindView(R.id.card_view)
@@ -81,7 +81,7 @@ public class FollowersAdapter extends GenericAdapterRecyclerView<User, Followers
             this.userDataModel = userDataModel;
             this.listener = clickListener;
             setUserName(userDataModel.name);
-            setUserJob(userDataModel.email);
+            setUserLocation(userDataModel.location);
             setUserBio(userDataModel.description);
             setUserImage(userDataModel.profileImageUrl);
 
@@ -95,11 +95,11 @@ public class FollowersAdapter extends GenericAdapterRecyclerView<User, Followers
             }
         }
 
-        private void setUserJob(String job) {
-            if (!TextUtils.isEmpty(job)) {
-                tvJob.setText(job);
+        private void setUserLocation(String location) {
+            if (!TextUtils.isEmpty(location)) {
+                tvLocation.setText(location);
             } else {
-                tvJob.setVisibility(View.GONE);
+                tvLocation.setVisibility(View.GONE);
             }
         }
 

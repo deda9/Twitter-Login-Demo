@@ -51,9 +51,9 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
                 .enqueue(new com.twitter.sdk.android.core.Callback<FollowerListResponse>() {
                     @Override
                     public void success(Result<FollowerListResponse> result) {
+                        hideProgressDialogForFollowers();
                         if (result == null || result.data == null) {
                             showErrorMessage();
-                            hideProgressDialogForFollowers();
                             return;
                         }
 
