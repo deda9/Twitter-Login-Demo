@@ -16,5 +16,6 @@
     <string name="english">English</string>
     <string name="change_lang">Change Language</string>
     <string name="try_again">Try again</string>
+    <string name="loading_your_tweets">Loading your Tweets...</string>
 
 </resources>

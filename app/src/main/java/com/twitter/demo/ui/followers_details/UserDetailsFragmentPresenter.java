@@ -6,5 +6,8 @@ package com.twitter.demo.ui.followers_details;
  * +201225361630
  */
 
-public class FollowersDetailsFragmentPresenter {
+public interface UserDetailsFragmentPresenter {
+
+    void getUserTweets(String screenName);
+
 }

@@ -22,7 +22,7 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".ui.followers_details.FollowersDetailsActivity"
+            android:name=".ui.followers_details.UserDetailsActivity"
             android:screenOrientation="portrait" />
 
         <activity

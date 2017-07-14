@@ -11,6 +11,7 @@ import android.content.res.Configuration;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
+import com.twitter.demo.db.BaseRealmManager;
 import com.twitter.demo.utilities.Constants;
 import com.twitter.demo.utilities.SharedPrefUtilis;
 import com.twitter.sdk.android.core.DefaultLogger;
@@ -19,6 +20,9 @@ import com.twitter.sdk.android.core.TwitterAuthConfig;
 import com.twitter.sdk.android.core.TwitterConfig;
 
 import java.util.Locale;
+
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
 
 /**
  * Created by Bassem Qoulta (Deda) on  7/10/17.
@@ -36,6 +40,13 @@ public class TwitterDemoApp extends Application {
         initializeTwitter();
         String lang = SharedPrefUtilis.getCurrentLang(this);
         switchLanguage(lang);
+        setupRealm();
+    }
+
+    private void setupRealm() {
+        Realm.init(this);
+        RealmConfiguration configuration = new BaseRealmManager().getRealmConfiguration(this);
+        Realm.setDefaultConfiguration(configuration);
     }
 
 

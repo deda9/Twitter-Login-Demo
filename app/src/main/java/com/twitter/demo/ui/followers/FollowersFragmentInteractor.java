@@ -1,5 +1,7 @@
 package com.twitter.demo.ui.followers;
 
+import com.twitter.demo.models.FollowerListResponse;
+
 /**
  * Created by Bassem Qoulta (Deda) on  7/10/17.
  * Bassem.Qoulta@gmail.com
@@ -7,5 +9,8 @@ package com.twitter.demo.ui.followers;
  * +201225361630
  */
 
-public class FollowersFragmentInteractor {
+public interface FollowersFragmentInteractor {
+    void saveFollowers(FollowerListResponse response);
+
+    public void onDestroy();
 }

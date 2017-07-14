@@ -1,6 +1,7 @@
 package com.twitter.demo.ui.followers;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.google.gson.Gson;
 import com.twitter.demo.api.CustomTwitterApiClient;
@@ -12,6 +13,10 @@ import com.twitter.sdk.android.core.TwitterSession;
 
 import java.lang.ref.WeakReference;
 
+import io.realm.Realm;
+
+import static com.twitter.sdk.android.core.Twitter.TAG;
+
 /**
  * Created by Bassem Qoulta (Deda) on  7/10/17.
  * Bassem.Qoulta@gmail.com
@@ -22,10 +27,12 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
 
     private WeakReference<Context> weakReference;
     private FollowersView followersView;
+    private FollowersFragmentInteractor interactor;
 
     public FollowersFragmentPresenterImp(FollowersView followersView, Context context) {
-        this.weakReference = new WeakReference<Context>(context);
+        this.weakReference = new WeakReference<>(context);
         this.followersView = followersView;
+        interactor = new FollowersFragmentInteractorImp(Realm.getDefaultInstance());
     }
 
     @Override
@@ -45,25 +52,46 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
                     @Override
                     public void success(Result<FollowerListResponse> result) {
                         if (result == null || result.data == null) {
-                            if (followersView != null) {
-                                followersView.showSomeThingWrong();
-                            }
+                            showErrorMessage();
                             return;
                         }
 
-
-                        if (followersView != null) {
-                            followersView.setupRecyclerView(result.data);
-                            long nextCursor = result.data.getNextCursor();
-                            followersView.setNextCursor(nextCursor);
-                        }
+                        handleFollowersListSuccess(result);
+                        saveFollowersResponse(result);
                     }
 
                     @Override
                     public void failure(TwitterException exception) {
-
+                        Log.d(TAG, "getUserFollowersList failure" );
                     }
                 });
+    }
+
+    @Override
+    public void onDestroy() {
+        if(interactor != null){
+            interactor.onDestroy();
+        }
+    }
+
+    private void showErrorMessage() {
+        if (followersView != null) {
+            followersView.showSomeThingWrong();
+        }
+    }
+
+    private void handleFollowersListSuccess(Result<FollowerListResponse> result) {
+        if (followersView != null) {
+            followersView.setupRecyclerView(result.data);
+            long nextCursor = result.data.getNextCursor();
+            followersView.setNextCursor(nextCursor);
+        }
+    }
+
+    private void saveFollowersResponse(Result<FollowerListResponse> result) {
+        if(interactor != null){
+            interactor.saveFollowers(result.data);
+        }
     }
 
     public interface FollowersView {

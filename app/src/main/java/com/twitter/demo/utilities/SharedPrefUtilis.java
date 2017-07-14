@@ -40,7 +40,7 @@ public class SharedPrefUtilis {
 
     public static String getUserID(Context context) {
         WeakReference<Context> weakReference = new WeakReference<>(context);
-        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_ID, "ar");
+        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_ID, "none");
     }
 
     public static void setUserId(Context context, String id) {
@@ -95,5 +95,15 @@ public class SharedPrefUtilis {
     public static String getTwitterSession(Context context) {
         WeakReference<Context> weakReference = new WeakReference<>(context);
         return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_TWITTER_SESSION, "null");
+    }
+
+    public static void saveLoggedUserTimeLine(Context context, String userTimelineString) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        getSharedPrefInstance(weakReference.get()).edit().putString(Constants.USER_TIME_LINE, userTimelineString).apply();
+    }
+
+    public static String getLoggedUserTimeLine(Context context) {
+        WeakReference<Context> weakReference = new WeakReference<>(context);
+        return getSharedPrefInstance(weakReference.get()).getString(Constants.USER_TIME_LINE, "null");
     }
 }

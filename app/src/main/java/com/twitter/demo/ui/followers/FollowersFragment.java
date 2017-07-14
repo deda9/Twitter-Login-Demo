@@ -1,5 +1,6 @@
 package com.twitter.demo.ui.followers;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,12 +13,15 @@ import com.twitter.demo.R;
 import com.twitter.demo.models.FollowerListResponse;
 import com.twitter.demo.ui.adapters.FollowersAdapter;
 import com.twitter.demo.ui.base.BaseFragment;
+import com.twitter.demo.ui.followers_details.UserDetailsActivity;
 import com.twitter.demo.utilities.RecyclerViewItemClickListener;
 import com.twitter.sdk.android.core.models.User;
 
 import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
+import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCREEN_NAME_KEY;
 
 /**
  * Created by Bassem Qoulta (Deda) on  7/13/17.
@@ -91,6 +95,20 @@ public class FollowersFragment extends BaseFragment implements FollowersFragment
 
     @Override
     public void onItemClicked(int position, User user) {
+        Intent intent = new Intent(getActivity(), UserDetailsActivity.class);
+        intent.putExtra(USER_SCREEN_NAME_KEY, user.screenName);
+        startActivity(intent);
+    }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        destroyPresenter();
+    }
+
+    private void destroyPresenter() {
+        if(followersPresenter != null){
+            followersPresenter.onDestroy();
+        }
     }
 }
