@@ -21,6 +21,6 @@ public class FollowersTab extends Tab{
         this.imageView = imageView;
         this.name = Constants.tabsName.FOLLOWERS;
         this.normalBackgroundId = R.drawable.followers;
-        this.pressedBackgroundId = R.drawable.followers;
+        this.pressedBackgroundId = R.drawable.follower_selected;
     }
 }

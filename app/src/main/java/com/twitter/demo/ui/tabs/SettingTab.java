@@ -21,7 +21,7 @@ public class SettingTab extends Tab{
         this.imageView = imageView;
         this.name = Constants.tabsName.SETTINGS;
         this.normalBackgroundId = R.drawable.settings;
-        this.pressedBackgroundId = R.drawable.settings;
+        this.pressedBackgroundId = R.drawable.setting_selected;
     }
 
 }

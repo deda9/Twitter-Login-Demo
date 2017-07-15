@@ -21,7 +21,7 @@ public class ProfileTab extends Tab {
         this.imageView = imageView;
         this.name = Constants.tabsName.PROFILE;
         this.normalBackgroundId = R.drawable.profile;
-        this.pressedBackgroundId = R.drawable.profile;
+        this.pressedBackgroundId = R.drawable.profile_selected;
 
     }
 }
