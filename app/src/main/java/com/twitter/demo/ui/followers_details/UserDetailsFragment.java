@@ -73,6 +73,10 @@ public class UserDetailsFragment extends BaseFragment
     }
 
     private void getUserTweets(String screenName) {
+        if (!isInternetAvailable()) {
+            showNoNetworkErrorMessage();
+            return;
+        }
         if (presenter != null) {
             presenter.getUserTweets(screenName);
         }
@@ -80,7 +84,7 @@ public class UserDetailsFragment extends BaseFragment
 
     @Override
     public void onSuccessTweets(UserTimeline userTimeline) {
-        if(swipeRefreshLayout.isRefreshing())
+        if (swipeRefreshLayout.isRefreshing())
             swipeRefreshLayout.setRefreshing(false);
 
         final TweetTimelineListAdapter adapter = new TweetTimelineListAdapter
@@ -92,7 +96,7 @@ public class UserDetailsFragment extends BaseFragment
         listFollowers.setAdapter(adapter);
         fixConflictBetweenSwipeAndListViewScroll();
 
-        if(listFollowers.getHeaderViewsCount() == 0){
+        if (listFollowers.getHeaderViewsCount() == 0) {
             listFollowers.addHeaderView(getHeader());
         }
     }

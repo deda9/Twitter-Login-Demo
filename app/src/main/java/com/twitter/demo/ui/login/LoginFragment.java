@@ -68,6 +68,10 @@ public class LoginFragment extends BaseFragment implements LoginFragmentPresente
     // its good to use your customize button rather twitter one
     @OnClick(R.id.login_button)
     public void onTwitterLoginClick() {
+        if(!isInternetAvailable()){
+            showNoNetworkErrorMessage();
+            return;
+        }
         if(loginFragmentPresenter != null){
             loginFragmentPresenter.loginWithTwitter();
         }

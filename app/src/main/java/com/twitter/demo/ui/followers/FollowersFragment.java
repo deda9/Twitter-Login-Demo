@@ -68,10 +68,18 @@ public class FollowersFragment extends BaseFragment
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        if(!isInternetAvailable()){
+            showNoNetworkErrorMessage();
+            return;
+        }
+        getFollowersList();
+        swipeRefreshLayout.setOnRefreshListener(this);
+    }
+
+    private void getFollowersList() {
         if (getBaseActivity() != null)
             getBaseActivity().showProgressDialog();
         followersPresenter.getFollowersList(nextCursor);
-        swipeRefreshLayout.setOnRefreshListener(this);
     }
 
     @Override
