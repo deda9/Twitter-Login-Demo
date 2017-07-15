@@ -10,6 +10,9 @@ import android.os.Parcelable;
  * +201225361630
  */
 
+/**
+ * this class is user header datam its used to show the user data like his name, his profile and background
+ */
 
 public class UserHeaderDataModel implements Parcelable {
 

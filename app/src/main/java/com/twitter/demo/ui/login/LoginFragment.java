@@ -22,19 +22,19 @@ import butterknife.OnClick;
  * +201225361630
  */
 
-
+/**
+ * This Fragment is responsible for login the user by his twitter account .
+ * it open twitter login web page.
+ */
 public class LoginFragment extends BaseFragment implements LoginFragmentPresenterImp.LoginView {
 
+    private LoginFragmentPresenter loginFragmentPresenter;
     @BindString(R.string.on_fail_twitter_login)
     public String twitterFailLoginMessage;
-
     @BindString(R.string.on_success_twitter_login)
     public String twitterSuccessLoginMessage;
 
-    LoginFragmentPresenter loginFragmentPresenter;
-
-    public LoginFragment() {
-    }
+    public LoginFragment() {}
 
     @Nullable
     @Override
@@ -51,7 +51,10 @@ public class LoginFragment extends BaseFragment implements LoginFragmentPresente
         loginFragmentPresenter.onActivityResult(requestCode, resultCode, data);
     }
 
-    //MARK: twitter operation
+
+    /**
+     * this called when the login is success and start the home activity
+     */
     @Override
     public void onSuccessTwitterLogin() {
         getBaseActivity().showToast(twitterSuccessLoginMessage);
@@ -65,7 +68,10 @@ public class LoginFragment extends BaseFragment implements LoginFragmentPresente
     }
 
 
-    // its good to use your customize button rather twitter one
+    /** its good to use your customize button rather twitter one
+     * when click on button we ask the presenter to do the login process and once success
+     * it call the onSuccessTwitterLogin() function to go on
+     */
     @OnClick(R.id.login_button)
     public void onTwitterLoginClick() {
         if(!isInternetAvailable()){

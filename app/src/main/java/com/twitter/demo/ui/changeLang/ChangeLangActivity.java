@@ -17,6 +17,9 @@ import butterknife.ButterKnife;
 import butterknife.OnCheckedChanged;
 import butterknife.OnClick;
 
+/**
+ * this is the activity for switch the lang betwee arabic or english
+ */
 public class ChangeLangActivity extends BaseActivity {
 
     @BindView(R.id.tv_lang)
@@ -42,6 +45,9 @@ public class ChangeLangActivity extends BaseActivity {
         setToolBarTitle(changeLang);
     }
 
+    /**
+     * Set the last lang user did choose it
+     */
     private void setPreviousLang() {
         String lang = SharedPrefUtilis.getCurrentLang(this);
         if (lang.equals("ar"))
@@ -50,6 +56,9 @@ public class ChangeLangActivity extends BaseActivity {
             switchToEnglish();
     }
 
+    /**
+     * when user click on the switch to choose lang
+     */
     @OnCheckedChanged(R.id.switch_lan)
     public void onSwitchLang() {
         String lang = SharedPrefUtilis.getCurrentLang(this);
@@ -60,6 +69,9 @@ public class ChangeLangActivity extends BaseActivity {
         restartApp();
     }
 
+    /**
+     * you need to restart the app to set the new lang which the user choose it .
+     */
     private void restartApp() {
         showProgressDialog();
         Handler handler = new Handler();
@@ -74,12 +86,18 @@ public class ChangeLangActivity extends BaseActivity {
         }, 1000);
     }
 
+    /**
+     * Set the arabic lang
+     */
     private void switchToArabic() {
         ((TwitterDemoApp) getApplication()).switchLanguage("ar");
         SharedPrefUtilis.setCurrentLang(this, "ar");
         tvLang.setText(arabic);
     }
 
+    /**
+     * set the english lang
+     */
     private void switchToEnglish() {
         ((TwitterDemoApp) getApplication()).switchLanguage("en");
         SharedPrefUtilis.setCurrentLang(this, "en");

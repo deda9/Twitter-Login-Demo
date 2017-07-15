@@ -21,6 +21,10 @@ import static com.twitter.sdk.android.core.Twitter.TAG;
  * Basem083926@feng.bu.edu.eg
  * +201225361630
  */
+
+/**
+ * this is for he repsenter all the process in the follower frgamen t
+ */
 public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter {
 
     private WeakReference<Context> weakReference;
@@ -33,6 +37,11 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
         interactor = new FollowersFragmentInteractorImp();
     }
 
+    /**
+     * get the user follower list based ont eh next cursor
+     *  next cursor = -1 = the first page (Twitter Doc)
+     * @param nextCursor
+     */
     @Override
     public void getFollowersList(long nextCursor) {
 
@@ -42,6 +51,7 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
         }
         TwitterSession twitterSession = new Gson().fromJson(twitterSessionString, TwitterSession.class);
 
+        //Create the cusotm tiwtter api client based on he retrofit library
         final CustomTwitterApiClient twitterApiClient = new CustomTwitterApiClient(twitterSession);
         twitterApiClient
                 .getCustomTwitterService()
@@ -89,6 +99,12 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
         }
     }
 
+    /**
+     * Called when the list fo the follower is came succcesfully and pass the delegate for the
+     * follower frgamen to show the list in the recyclerviw
+     *
+     * @param result
+     */
     private void handleFollowersListSuccess(Result<FollowerListResponse> result) {
         if (followersView != null) {
             long nextCursor = result.data.getNextCursor();
@@ -97,6 +113,10 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
         }
     }
 
+    /**
+     *Talk to the db layer to save thme
+     * @param result
+     */
     private void saveFollowersResponse(Result<FollowerListResponse> result) {
         if(interactor != null){
             interactor.saveFollowers(result.data);

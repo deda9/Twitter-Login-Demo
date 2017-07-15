@@ -28,10 +28,12 @@ import butterknife.OnClick;
 import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_HEADER_MODEL_KEY;
 import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCREEN_NAME_KEY;
 
+/**
+ * this for set the home page and the tabs
+ */
 public class HomeActivity extends BaseActivity {
     private List<Tab> tabsList;
     private ProfileFragment profileFragment;
-
     @BindView(R.id.tv_tool_bar_title)
     TextView tvToolBarTitle;
     @BindView(R.id.iv_profile)
@@ -63,6 +65,10 @@ public class HomeActivity extends BaseActivity {
     }
 
 
+    /**
+     * Set the profile fragment when clik on profile tab
+     * @return
+     */
     private ProfileFragment getProfileFragment() {
         if (profileFragment == null)
             profileFragment = new ProfileFragment();
@@ -73,6 +79,10 @@ public class HomeActivity extends BaseActivity {
         return profileFragment;
     }
 
+    /**
+     * create the user header data model
+     * @return
+     */
     private UserHeaderDataModel getUserHeaderModel() {
         UserHeaderDataModel userModel = new UserHeaderDataModel();
         userModel.userName = SharedPrefUtilis.getUserName(this);
@@ -117,6 +127,10 @@ public class HomeActivity extends BaseActivity {
         }
     }
 
+    /**
+     * Change the tab name and image when click on one of them
+     * @param tabName
+     */
     public void changeTabBackground(Constants.tabsName tabName) {
         for (int i = 0; i < tabsList.size(); i++) {
             if (!tabsList.get(i).name.equals(tabName)) {

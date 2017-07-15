@@ -28,6 +28,10 @@ import butterknife.OnClick;
  * Basem083926@feng.bu.edu.eg
  * +201225361630
  */
+/**
+ * this class is Followers adapter used for setting the followers items
+ */
+
 public class FollowersAdapter extends GenericAdapterRecyclerView<User, FollowersAdapter.FollowerViewHolder> {
 
     private RecyclerViewItemClickListener<User> listener;

@@ -9,6 +9,9 @@ import com.twitter.demo.models.FollowerListResponse;
  * +201225361630
  */
 
+/**
+ * This for the db layer
+ */
 public class FollowersFragmentInteractorImp implements FollowersFragmentInteractor{
 
     public FollowersFragmentInteractorImp() {
@@ -16,6 +19,7 @@ public class FollowersFragmentInteractorImp implements FollowersFragmentInteract
 
     @Override
     public void saveFollowers(FollowerListResponse response) {
+        //TODO:: next phase add cashe layers
     }
 
     @Override

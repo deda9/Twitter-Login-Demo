@@ -16,6 +16,9 @@ import java.lang.ref.WeakReference;
  * +201225361630
  */
 
+/**
+ * this class is the interactor for the login fragment to save the data
+ */
 public class LoginFragmentInteractorImp  implements LoginFragmentInteractor{
 
     private WeakReference<Context> weakReference;
@@ -24,11 +27,20 @@ public class LoginFragmentInteractorImp  implements LoginFragmentInteractor{
         this.weakReference = new WeakReference<>(context);
     }
 
+
+    /**
+     * Save user data into shared pref
+     * @param user
+     */
     @Override
     public void saveUserAccountInfo(User user) {
         SharedPrefUtilis.saveUserAccountInfo(weakReference.get(), user);
     }
 
+    /**
+     * save the user twitter session to use it later to get the followers and the tweets timeline
+     * @param twitterSession
+     */
     @Override
     public void saveTwitterSession(TwitterSession twitterSession) {
         String twitterSessionSerialized = new Gson().toJson(twitterSession);

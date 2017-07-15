@@ -17,7 +17,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.twitter.demo.R;
-import com.twitter.demo.utilities.ViewHelper;
 
 
 /**
@@ -29,6 +28,10 @@ import com.twitter.demo.utilities.ViewHelper;
  * we will use the archetecture MVP it's more powerfull .
  * so Please go in details and see this link
  * https://guides.codepath.com/android/Architecture-of-Android-Apps
+ */
+
+/**
+ * this activity is the base one for all the fuc which common used over the other activities
  */
 
 public abstract class BaseActivity extends AppCompatActivity implements BaseViews {
@@ -75,19 +78,12 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
         super.onDestroy();
     }
 
-    public void destroy() {
-        mToolbar = null;
-    }
 
-    public boolean checkConnectivity(Context context) {
-        if (isInternetAvailable())
-            return true;
-        else {
-            ViewHelper.showMessage(context, R.string.error_no_internet_connection);
-            return false;
-        }
-    }
-
+    /**
+     * check the network is available or not
+     *
+     * @return true or false
+     */
     public boolean isInternetAvailable() {
         ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo activeNetworkInfo = connectivityManager
@@ -116,6 +112,9 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
         Toast.makeText(this, getResources().getString(R.string.try_again), Toast.LENGTH_SHORT).show();
     }
 
+    /**
+     * show custom progress dialog
+     */
     @Override
     public void showProgressDialog() {
         if (dialog == null)
@@ -142,6 +141,10 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
         super.onConfigurationChanged(paramConfiguration);
     }
 
+    /** used for replace the frgament
+     * @param title title to set it in the tool bar(Custom one too)
+     * @param fragment to replace it
+     */
     protected void replaceFragment(String title, Fragment fragment) {
         if (toolBarTextView != null)
             toolBarTextView.setText(title);

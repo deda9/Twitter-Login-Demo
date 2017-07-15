@@ -13,6 +13,10 @@ import java.util.List;
  */
 
 
+/**
+ * this class is response model for the user followers
+ */
+
 public class FollowerListResponse  {
 
     @SerializedName("next_cursor")

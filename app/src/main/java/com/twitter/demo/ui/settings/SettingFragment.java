@@ -23,6 +23,9 @@ import butterknife.OnClick;
  */
 
 
+/**
+ * Setting contains the lang switch and logout
+ */
 public class SettingFragment extends BaseFragment implements SettingPresenterImp.SettingView {
 
     SettingPresenter settingPresenter;
@@ -39,6 +42,9 @@ public class SettingFragment extends BaseFragment implements SettingPresenterImp
         return view;
     }
 
+    /**
+     * Log out the logged user and open the login page
+     */
     @Override
     public void onLogOut() {
         Intent intent = new Intent(getActivity(), LoginUserActivity.class);

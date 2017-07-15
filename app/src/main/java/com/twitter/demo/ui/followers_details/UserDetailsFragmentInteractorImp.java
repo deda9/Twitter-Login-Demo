@@ -1,10 +1,7 @@
 package com.twitter.demo.ui.followers_details;
 
 import android.content.Context;
-import android.util.Log;
 
-import com.google.gson.Gson;
-import com.twitter.demo.utilities.SharedPrefUtilis;
 import com.twitter.sdk.android.tweetui.UserTimeline;
 
 import java.lang.ref.WeakReference;
@@ -26,7 +23,6 @@ public class UserDetailsFragmentInteractorImp implements UserDetailsFragmentInte
 
     @Override
     public void saveLoggedUserTweets(UserTimeline userTimeline) {
-        String userTimelineString = new Gson().toJson(userTimeline);
 
         /**
          *
@@ -39,12 +35,6 @@ public class UserDetailsFragmentInteractorImp implements UserDetailsFragmentInte
          * It may produce Out of memory Error
          *
          */
-
-        try{
-            SharedPrefUtilis.saveLoggedUserTimeLine(this.weakReference.get(), userTimelineString);
-        }catch (OutOfMemoryError error){
-            Log.e("UserDetailsFragment", "OutOfMemoryError while save TimeLine for user");
-        }
 
     }
 }

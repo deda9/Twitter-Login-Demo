@@ -22,7 +22,9 @@ import java.lang.ref.WeakReference;
  * +201225361630
  */
 
-
+/**
+ * this class is the presenter for the login fragment
+ */
 public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
 
     private String TAG = getClass().getName();
@@ -35,12 +37,13 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
     public LoginFragmentPresenterImp(LoginView loginView, Context context) {
         mLoginView = loginView;
         mWeakReference = new WeakReference<Context>(context);
-        loginInteractor = new  LoginFragmentInteractorImp(context);
+        loginInteractor = new LoginFragmentInteractorImp(context);
     }
 
     @Override
     public void onLoginSuccess() {
-        mLoginView.onSuccessTwitterLogin();
+        if (mLoginView != null)
+            mLoginView.onSuccessTwitterLogin();
     }
 
     @Override
@@ -48,6 +51,11 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
         mLoginView.onFailTwitterLogin();
     }
 
+    /**
+     * the operation for the login user by twitter account
+     * we initialize the TwitterAuthClient and ask it to login the user
+     * it return the Twitter session after the log in
+     */
     @Override
     public void loginWithTwitter() {
         twitterClient = new TwitterAuthClient();
@@ -57,8 +65,8 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
                 if (mLoginView != null) {
                     mLoginView.showProgressDialog();
                     getUserAccountInfo(result.data);
-                }else {
-                    Log.e(TAG,"mLoginView is null, so we can't call onSuccessTwitterLogin for it");
+                } else {
+                    Log.e(TAG, "mLoginView is null, so we can't call onSuccessTwitterLogin for it");
                 }
             }
 
@@ -71,6 +79,13 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
             }
         });
     }
+
+    /**
+     * after the user logged in , we ask the twitter to get the logged user account data
+     * we use from them the username , user screen name, profile url, backgound url
+     *
+     * @param twitterSession
+     */
     private void getUserAccountInfo(final TwitterSession twitterSession) {
         TwitterApiClient twitterApiClient = new TwitterApiClient(twitterSession);
         twitterApiClient
@@ -80,24 +95,21 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
                     @Override
                     public void success(Result<User> result) {
 
+                        // we ask the interactor to save the data to use later
                         LoginFragmentPresenterImp.this.loginInteractor.saveUserAccountInfo(result.data);
                         LoginFragmentPresenterImp.this.loginInteractor.saveTwitterSession(twitterSession);
 
-                        if(LoginFragmentPresenterImp.this.mLoginView != null){
-                            LoginFragmentPresenterImp.this.mLoginView.onSuccessTwitterLogin();
+                        // we talk to the fragment delegate to show the message when success.
+                        if (LoginFragmentPresenterImp.this.mLoginView != null) {
+                            onLoginSuccess();
                         }
                     }
 
                     @Override
                     public void failure(TwitterException exception) {
-                        Log.e(TAG," we can't call getUserAccountInfo, Failed");
+                        Log.e(TAG, " we can't call getUserAccountInfo, Failed");
                     }
                 });
-
-
-
-
-
 
 
 //
@@ -106,9 +118,6 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
 //                @Override
 //                public void success(Result<String> result) {
 //                    TwitterAuthToken authToken = twitterSession.getAuthToken();
-
-
-
 
 
 //
@@ -145,7 +154,6 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
 //                    });
 
 
-
 //                }
 
 //                @Override
@@ -162,7 +170,7 @@ public class LoginFragmentPresenterImp implements LoginFragmentPresenter {
         if (twitterClient != null) {
             twitterClient.onActivityResult(requestCode, resultCode, data);
         } else {
-            Log.e(TAG,"twitterClient is null, so we cant set onActivityResult for it");
+            Log.e(TAG, "twitterClient is null, so we cant set onActivityResult for it");
         }
     }
 

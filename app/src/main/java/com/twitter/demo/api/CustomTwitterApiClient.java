@@ -10,7 +10,9 @@ import com.twitter.sdk.android.core.TwitterSession;
  * +201225361630
  */
 
-
+/**
+ * this class is cutomize the twitter TwitterApiClient to get the user followers
+ */
 public class CustomTwitterApiClient extends TwitterApiClient {
 
     public CustomTwitterApiClient(TwitterSession session) {

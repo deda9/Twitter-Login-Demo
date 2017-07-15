@@ -14,6 +14,11 @@ import com.twitter.demo.utilities.SharedPrefUtilis;
  * Basem083926@feng.bu.edu.eg
  * +201225361630
  */
+
+/**
+ * This class is responsible for showing  the splash screen for the user,
+ * then start the home page or the login page
+ */
 public class SplashScreen extends AppCompatActivity {
 
     private int DELAY_TIME = 1000;

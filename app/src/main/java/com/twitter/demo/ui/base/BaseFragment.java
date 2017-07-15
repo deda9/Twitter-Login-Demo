@@ -11,6 +11,10 @@ import android.support.v7.widget.RecyclerView;
  * Basem083926@feng.bu.edu.eg
  * +201225361630
  */
+/**
+ * this is the base fragment like the base activity and call func from there too.
+ */
+
 public class BaseFragment extends Fragment {
 
     public boolean isLoadingMore;
@@ -41,6 +45,16 @@ public class BaseFragment extends Fragment {
     public void showToast(String message) {
         getBaseActivity().showToast(message);
     }
+
+
+    /**
+     * used to set the pagiantion fro the recyclerview
+     * you need to override the func loadMoreData()
+     * to call your request there
+     *
+     * @param recyclerView
+     * @param layoutManager
+     */
     public void setupPagination(RecyclerView recyclerView, final RecyclerView.LayoutManager layoutManager) {
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override

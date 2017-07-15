@@ -17,6 +17,10 @@ import butterknife.OnClick;
  * Basem083926@feng.bu.edu.eg
  * +201225361630
  */
+
+/**
+ * Contaiter for the user timeline fragment
+ */
 public class UserDetailsActivity extends BaseActivity {
 
     public static String USER_SCREEN_NAME_KEY = "user_screen_name_key";
@@ -42,6 +46,10 @@ public class UserDetailsActivity extends BaseActivity {
         }
     }
 
+    /**
+     * Create the user timeline fragament and set the user header dtaa to set it int the list view
+     * and the user screen name to get the timeline based on it
+     */
     private void setUserDetailsFragment() {
         UserDetailsFragment fragment = new UserDetailsFragment();
         String userName = userHeaderDataModel.userName == null ? "Profile" : userHeaderDataModel.userName;

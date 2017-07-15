@@ -34,11 +34,16 @@ import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCR
  * +201225361630
  */
 
-
+/**
+ * this is the frgament which is responsible for get the user followers
+ */
 public class FollowersFragment extends BaseFragment
         implements FollowersFragmentPresenterImp.FollowersView,
         RecyclerViewItemClickListener<User>, SwipeRefreshLayout.OnRefreshListener {
 
+    private FollowersFragmentPresenter followersPresenter;
+    private FollowersAdapter adapter;
+    private long nextCursor = -1;
     @BindString(R.string.try_again)
     public String tryAgain;
     @BindView(R.id.rc_followers)
@@ -48,13 +53,8 @@ public class FollowersFragment extends BaseFragment
     @BindView(R.id.swipe_refresh_layout)
     SwipeRefreshLayout swipeRefreshLayout;
 
-    private FollowersFragmentPresenter followersPresenter;
-    private FollowersAdapter adapter;
-    private long nextCursor = -1;
 
-
-    public FollowersFragment() {
-    }
+    public FollowersFragment() {}
 
     @Nullable
     @Override
@@ -76,12 +76,22 @@ public class FollowersFragment extends BaseFragment
         swipeRefreshLayout.setOnRefreshListener(this);
     }
 
+    /**
+     * Talk to the presenter to get the follower for the logged user
+     */
     private void getFollowersList() {
         if (getBaseActivity() != null)
             getBaseActivity().showProgressDialog();
         followersPresenter.getFollowersList(nextCursor);
     }
 
+    /**
+     * this is called when the follower list is loaded by the right way.
+     * set the data to the adapter
+     * cancel the swipe if so
+     * cancel load more if so
+     * @param data followers list
+     */
     @Override
     public void setupRecyclerView(FollowerListResponse data) {
         if (adapter == null) {
@@ -102,6 +112,9 @@ public class FollowersFragment extends BaseFragment
             isLoadingMore = false;
     }
 
+    /**
+     * This the override func whenc come form the setting pagination for the recyclerview
+     */
     @Override
     public void loadMoreData() {
         if (this.nextCursor != 0) {
@@ -115,6 +128,12 @@ public class FollowersFragment extends BaseFragment
         getBaseActivity().showToast(tryAgain);
     }
 
+    /**
+     * Based on the twiiter Doc,
+     * you need to send the next cursor to get the next items for the pagaintion
+     *
+     * @param nextCursor which will sent to indicate tthe next items
+     */
     @Override
     public void setNextCursor(long nextCursor) {
         this.nextCursor = nextCursor;
@@ -127,6 +146,11 @@ public class FollowersFragment extends BaseFragment
         }
     }
 
+    /**
+     * Came form the adapter when the user click on the cell of the recyclerview
+     * @param position the postion of the cell
+     * @param user the item which click ont he cell contair for it
+     */
     @Override
     public void onItemClicked(int position, User user) {
         Intent intent = new Intent(getActivity(), UserDetailsActivity.class);
@@ -155,6 +179,9 @@ public class FollowersFragment extends BaseFragment
         }
     }
 
+    /**
+     * Handle the swipe and load new data
+     */
     @Override
     public void onRefresh() {
         swipeRefreshLayout.setRefreshing(true);

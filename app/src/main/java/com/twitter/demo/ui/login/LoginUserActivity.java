@@ -12,6 +12,10 @@ import com.twitter.demo.ui.base.BaseActivity;
  * Basem083926@feng.bu.edu.eg
  * +201225361630
  */
+
+/**
+ * This activity is a container for the login fragment
+ */
 public class LoginUserActivity extends BaseActivity {
 
     private LoginFragment loginFragment;
@@ -23,11 +27,19 @@ public class LoginUserActivity extends BaseActivity {
         openLoginFragment();
     }
 
+    /**
+     * Open the login fragment which is responsible for login process
+     */
     private void openLoginFragment() {
         loginFragment = new LoginFragment();
         replaceFragment("",loginFragment);
     }
 
+
+    /**
+     * when data came from the twitter login it pass them to ehe fragment ,
+     * then fragment pass them for then presenter
+     */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

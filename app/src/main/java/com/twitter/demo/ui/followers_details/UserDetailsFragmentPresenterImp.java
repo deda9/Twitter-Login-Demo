@@ -26,6 +26,11 @@ public class UserDetailsFragmentPresenterImp implements UserDetailsFragmentPrese
         interactor = new UserDetailsFragmentInteractorImp(weakReference.get());
     }
 
+    /**
+     * We used the built-in Twitter core to get the timelime
+     * for more data follow the timeLine user Twitter Doc
+     * @param screenName
+     */
     @Override
     public void getUserTweets(String screenName) {
         final UserTimeline userTimeline = new UserTimeline.Builder()
@@ -51,7 +56,7 @@ public class UserDetailsFragmentPresenterImp implements UserDetailsFragmentPrese
         if (!TextUtils.isEmpty(screenName)
                 && screenName.equals(SharedPrefUtilis.getUserScreenName(weakReference.get()))
                 && interactor != null) {
-//            interactor.saveLoggedUserTweets(userTimeline);
+            interactor.saveLoggedUserTweets(userTimeline);
         }
     }
 

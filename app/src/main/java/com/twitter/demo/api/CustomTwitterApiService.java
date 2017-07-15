@@ -12,11 +12,13 @@ import retrofit2.http.Query;
  * Basem083926@feng.bu.edu.eg
  * +201225361630
  */
+
+/**
+ * this interface contain the service for the network layer
+ */
 public interface CustomTwitterApiService {
 
     @GET("/1.1/followers/list.json")
     Call<FollowerListResponse> getUserFollowersList(@Query("user_id") long id,
                                                     @Query("cursor") long cursor);
-//    Call<ResponseBody> getUserFollowersList(@Query("user_id") long id);
-//    Observable<FollowerListResponse> getUserFollowersList(@Query("user_id") long id);
 }
