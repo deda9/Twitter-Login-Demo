@@ -54,6 +54,13 @@ public class FollowersAdapter extends GenericAdapterRecyclerView<User, Followers
         viewHolder.bind(currentItem, this.listener);
     }
 
+    public void removeAll() {
+        if(!itemsArrayList.isEmpty()){
+            itemsArrayList.clear();
+            notifyDataSetChanged();
+        }
+    }
+
     static class FollowerViewHolder extends BaseViewHolder<User> {
         private WeakReference<Context> weakReference;
         private User userDataModel;

@@ -89,6 +89,7 @@ public class UserDetailsFragment extends BaseFragment
 
         listFollowers.setVisibility(View.VISIBLE);
         listFollowers.setAdapter(adapter);
+
         if(listFollowers.getHeaderViewsCount() == 0){
             listFollowers.addHeaderView(getHeader());
         }

@@ -3,6 +3,7 @@ package com.twitter.demo.ui.followers;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -36,7 +37,7 @@ import static com.twitter.demo.ui.followers_details.UserDetailsActivity.USER_SCR
 
 public class FollowersFragment extends BaseFragment
         implements FollowersFragmentPresenterImp.FollowersView,
-        RecyclerViewItemClickListener<User> {
+        RecyclerViewItemClickListener<User>, SwipeRefreshLayout.OnRefreshListener {
 
     @BindString(R.string.try_again)
     public String tryAgain;
@@ -44,6 +45,8 @@ public class FollowersFragment extends BaseFragment
     RecyclerView rcFollowers;
     @BindView(R.id.pr_loading_more)
     ProgressBar prLoadingMore;
+    @BindView(R.id.swipe_refresh_layout)
+    SwipeRefreshLayout swipeRefreshLayout;
 
     private FollowersFragmentPresenter followersPresenter;
     private FollowersAdapter adapter;
@@ -68,6 +71,7 @@ public class FollowersFragment extends BaseFragment
         if (getBaseActivity() != null)
             getBaseActivity().showProgressDialog();
         followersPresenter.getFollowersList(nextCursor);
+        swipeRefreshLayout.setOnRefreshListener(this);
     }
 
     @Override
@@ -83,6 +87,11 @@ public class FollowersFragment extends BaseFragment
             adapter.addAll(data.getUsers());
             prLoadingMore.setVisibility(View.GONE);
         }
+        if (swipeRefreshLayout.isRefreshing())
+            swipeRefreshLayout.setRefreshing(false);
+
+        if (isLoadingMore)
+            isLoadingMore = false;
     }
 
     @Override
@@ -100,13 +109,12 @@ public class FollowersFragment extends BaseFragment
 
     @Override
     public void setNextCursor(long nextCursor) {
-        //for pagination
         this.nextCursor = nextCursor;
     }
 
     @Override
     public void hideProgressDialogForFollowers() {
-        if(getBaseActivity() != null){
+        if (getBaseActivity() != null) {
             getBaseActivity().hideProgressDialog();
         }
     }
@@ -137,5 +145,14 @@ public class FollowersFragment extends BaseFragment
         if (followersPresenter != null) {
             followersPresenter.onDestroy();
         }
+    }
+
+    @Override
+    public void onRefresh() {
+        swipeRefreshLayout.setRefreshing(true);
+        setNextCursor(-1);
+        followersPresenter.getFollowersList(nextCursor);
+        if (adapter != null)
+            adapter.removeAll();
     }
 }

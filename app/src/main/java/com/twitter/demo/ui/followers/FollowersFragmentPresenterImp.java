@@ -62,6 +62,9 @@ public class FollowersFragmentPresenterImp implements FollowersFragmentPresenter
                     @Override
                     public void failure(TwitterException exception) {
                         hideProgressDialogForFollowers();
+                        if (followersView != null) {
+                            followersView.showSomeThingWrong();
+                        }
                         Log.d(TAG, "getUserFollowersList failure" );
                     }
                 });
