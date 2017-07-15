@@ -8,15 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/tv_empty"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal|center_vertical"
-            android:text="@string/loading_your_tweets"
-            android:visibility="visible" />
-
         <ListView
             android:id="@+id/list_followers"
             android:layout_width="match_parent"
@@ -26,5 +17,13 @@
             android:dividerHeight="1dp"
             android:drawSelectorOnTop="false"
             android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/loading_your_tweets"
+            android:visibility="visible" />
     </LinearLayout>
 </android.support.v4.widget.SwipeRefreshLayout>
