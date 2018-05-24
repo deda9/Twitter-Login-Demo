@@ -1,6 +1,6 @@
 Hey! 
 
-This is a twitter login with Tweets and Followers demo for [Eventtus](https://eventtus.com) Interview
+This is a twitter login with Tweets and Followers demo
 
 This demo is written by **MVP** , **SOLID** and 
 
